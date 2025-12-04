@@ -561,9 +561,9 @@ class AwesomeWebsites {
 
         // Create HTML for filter buttons
         const buttonsHTML = `
-            <button class="filter-btn active" data-category="all">全部 (${this.websites.length})</button>
+            <button class="filter-btn active" data-category="all" aria-pressed="true" aria-label="显示全部 ${this.websites.length} 个网站">全部 (${this.websites.length})</button>
             ${this.categories.map(category => 
-                `<button class="filter-btn" data-category="${category.name}">${category.icon} ${category.name} (${categoryCounts[category.name] || 0})</button>`
+                `<button class="filter-btn" data-category="${category.name}" aria-pressed="false" aria-label="显示 ${category.name} 分类的 ${categoryCounts[category.name] || 0} 个网站">${category.icon} ${category.name} (${categoryCounts[category.name] || 0})</button>`
             ).join('')}
         `;
 
@@ -578,10 +578,14 @@ class AwesomeWebsites {
         filterButtons.forEach(button => {
             button.addEventListener('click', () => {
                 // Remove active class from all buttons
-                filterButtons.forEach(btn => btn.classList.remove('active'));
+                filterButtons.forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.setAttribute('aria-pressed', 'false');
+                });
                 
                 // Add active class to clicked button
                 button.classList.add('active');
+                button.setAttribute('aria-pressed', 'true');
                 
                 // Get the category filter and apply it
                 const category = button.dataset.category;
@@ -623,8 +627,8 @@ class AwesomeWebsites {
         const logoUrl = website.logo || `https://www.google.com/s2/favicons?domain=${new URL(website.url).hostname}&sz=128`;
         
         return `
-            <div class="website-card" data-category="${website.category}">
-                <div class="category-badge">${website.category}</div>
+            <article class="website-card" data-category="${website.category}" role="listitem" aria-label="${website.name} - ${website.description}">
+                <div class="category-badge" aria-label="分类: ${website.category}">${website.category}</div>
                 <div class="website-header">
                     <div class="website-info">
                         <img src="${logoUrl}" 
@@ -633,31 +637,31 @@ class AwesomeWebsites {
                              loading="eager"
                              onerror="this.src='https://www.google.com/s2/favicons?domain=${new URL(website.url).hostname}&sz=128'; this.onerror=function(){this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiM2MzY2ZjEiLz4KPHBhdGggZD0iTTEyIDI0TDI0IDM2TDM2IDEyVjM2SDI0VjEyTDEyIDI0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+'};">
                         <div class="website-text">
-                            <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="website-title">
+                            <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="website-title" aria-label="访问 ${website.name} 网站">
                                 ${website.name}
-                                <span class="language-badge ${languageInfo.class}">${languageInfo.text}</span>
+                                <span class="language-badge ${languageInfo.class}" aria-label="语言: ${languageInfo.text}">${languageInfo.text}</span>
                             </a>
-                            <div class="website-url">${website.url}</div>
+                            <div class="website-url" aria-label="网站地址: ${website.url}">${website.url}</div>
                         </div>
                     </div>
                 </div>
                 <p class="website-description">${website.description}</p>
-                <div class="website-tags">${tags}</div>
+                <div class="website-tags" role="list" aria-label="标签">${tags}</div>
                 <div class="website-footer">
                     <div class="submitter-info">
                         <span>由</span>
-                        <a href="https://github.com/${submitterGithub}" target="_blank" rel="noopener noreferrer" class="submitter-link">
+                        <a href="https://github.com/${submitterGithub}" target="_blank" rel="noopener noreferrer" class="submitter-link" aria-label="查看 ${submitterName} 的 GitHub">
                             ${submitterName}
                         </a>
                         <span>推荐于</span>
-                        <span class="added-date">${this.formatDate(website.added_date)}</span>
+                        <time class="added-date" datetime="${website.added_date}">${this.formatDate(website.added_date)}</time>
                     </div>
-                    <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="visit-btn">
+                    <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="visit-btn" aria-label="访问 ${website.name} 网站">
                         访问
-                        <i class="fas fa-external-link-alt"></i>
+                        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                     </a>
                 </div>
-            </div>
+            </article>
         `;
     }
 

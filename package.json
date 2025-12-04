@@ -24,9 +24,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/awesome-websites.git"
+    "url": "https://github.com/Smartuil/awesome-websites.git"
   },
-  "homepage": "https://yourusername.github.io/awesome-websites",
+  "homepage": "https://smartuil.github.io/awesome-websites",
   "devDependencies": {
     "serve": "^14.2.1"
   },

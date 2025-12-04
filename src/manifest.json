@@ -1,0 +1,43 @@
+{
+    "name": "Awesome Websites - 全球有趣网站收藏",
+    "short_name": "Awesome Websites",
+    "description": "收集全球有趣、创意、实用网站的开源项目。包含设计工具、开发工具、学习资源、娱乐休闲等多个分类。",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f8fafc",
+    "theme_color": "#6366f1",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "zh-CN",
+    "dir": "ltr",
+    "categories": ["productivity", "tools", "education", "entertainment"],
+    "icons": [
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='50' fill='%236366f1'/><text x='96' y='120' font-size='120' text-anchor='middle' fill='white'>🌍</text></svg>",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='130' fill='%236366f1'/><text x='256' y='320' font-size='320' text-anchor='middle' fill='white'>🌍</text></svg>",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 375 812'><rect width='375' height='812' fill='%23f8fafc'/><rect x='0' y='0' width='375' height='200' fill='url(%23gradient)'/><text x='187' y='100' text-anchor='middle' font-size='24' fill='white'>Awesome Websites</text><text x='187' y='130' text-anchor='middle' font-size='14' fill='white'>全球有趣网站收藏</text><rect x='20' y='250' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><rect x='20' y='370' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><rect x='20' y='490' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><defs><linearGradient id='gradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%236366f1'/><stop offset='100%25' style='stop-color:%23ec4899'/></linearGradient></defs></svg>",
+            "sizes": "375x812",
+            "type": "image/svg+xml",
+            "form_factor": "narrow",
+            "label": "Awesome Websites 主页截图"
+        }
+    ]
+}

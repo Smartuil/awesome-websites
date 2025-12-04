@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# 网站地图位置
+Sitemap: https://smartuil.github.io/awesome-websites/sitemap.xml
+
+# 允许主要搜索引擎
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# 禁止访问的目录（如果有）
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+
+# 爬取延迟（可选，对性能好）
+Crawl-delay: 1
