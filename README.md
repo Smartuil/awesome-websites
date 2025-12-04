@@ -150,7 +150,132 @@ npm run serve
 # http://localhost:8000
 ```
 
-### 方式三：部署到自己的服务器
+### 方式三：部署到GitHub Pages
+GitHub Pages是GitHub提供的免费静态网站托管服务，非常适合部署本项目。
+
+#### 🔧 自动部署（推荐）
+
+1. **启用GitHub Pages**
+   ```bash
+   # 进入项目目录
+   cd awesome-websites
+   
+   # 创建必要的GitHub Actions工作流
+   mkdir -p .github/workflows
+   ```
+
+2. **创建自动化部署文件**
+   ```yaml
+    # Simple workflow for deploying static content to GitHub Pages
+    name: Deploy static content to Pages
+
+    on:
+      # Runs on pushes targeting the default branch
+      push:
+        branches: ["main"]
+
+      # Allows you to run this workflow manually from the Actions tab
+      workflow_dispatch:
+
+    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+    # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+
+    jobs:
+      # Single deploy job since we're just deploying
+      deploy:
+        environment:
+          name: github-pages
+          url: ${{ steps.deployment.outputs.page_url }}
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v4
+          - name: Setup Pages
+            uses: actions/configure-pages@v5
+          - name: Upload artifact
+            uses: actions/upload-pages-artifact@v3
+            with:
+              # Upload entire repository
+              path: './src'
+          - name: Deploy to GitHub Pages
+            id: deployment
+            uses: actions/deploy-pages@v4
+   ```
+
+3. **配置GitHub Pages设置**
+   - 进入仓库的 `Settings` → `Pages`
+   - `Source` 选择 `GitHub Actions`
+
+4. **推送代码触发部署**
+   ```bash
+   git add .
+   git commit -m "Add GitHub Pages deployment"
+   git push origin main
+   ```
+
+#### 🎯 手动部署
+
+1. **创建gh-pages分支**
+   ```bash
+   # 创建并切换到gh-pages分支
+   git checkout --orphan gh-pages
+   
+   # 清除工作目录
+   git rm -rf .
+   
+   # 复制src目录内容
+   cp -r src/* ./
+   cp -r src/.* ./  # 复制隐藏文件
+   
+   # 添加必要的文件
+   echo "awesome-websites" > CNAME  # 可选：自定义域名
+   echo "" > .nojekyll  # 禁用Jekyll处理
+   
+   # 提交到gh-pages分支
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin gh-pages
+   ```
+
+2. **在GitHub仓库设置中启用Pages**
+   - 进入 `Settings` → `Pages`
+   - `Source` 选择 `Deploy from a branch`
+   - `Branch` 选择 `gh-pages` 和 `/(root)`
+
+#### 🌐 自定义域名（可选）
+
+1. **添加CNAME文件**
+   ```bash
+   # 在src目录下创建CNAME文件
+   echo "yourdomain.com" > src/CNAME
+   ```
+
+2. **配置DNS解析**
+   - 在域名提供商处添加CNAME记录：
+   ```
+   www.yourdomain.com -> yourusername.github.io
+   或
+   @ -> yourusername.github.io
+   ```
+
+#### 📋 部署后访问地址
+
+| 部署方式 | 访问地址 | 示例 |
+|----------|----------|------|
+| 用户仓库 | `https://username.github.io/awesome-websites` | `https://smartuil.github.io/awesome-websites` |
+| 组织仓库 | `https://orgname.github.io/awesome-websites` | `https://company.github.io/awesome-websites` |
+| 自定义域名 | `https://yourdomain.com` | `https://yourdomain.com` |
+
+### 方式四：部署到其他服务器
 ```bash
 # 构建项目
 npm run build
