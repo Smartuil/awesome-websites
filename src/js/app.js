@@ -31,7 +31,7 @@ class AwesomeWebsites {
     async loadData() {
         try {
             // Load websites data
-            const websitesResponse = await fetch('../data/websites.json');
+            const websitesResponse = await fetch('./data/websites.json');
             if (!websitesResponse.ok) {
                 throw new Error('Failed to load websites data');
             }
