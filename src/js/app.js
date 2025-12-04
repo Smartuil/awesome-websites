@@ -77,42 +77,11 @@ class AwesomeWebsites {
         
         try {
             const date = new Date(dateString);
-            const now = new Date();
-            const diffTime = Math.abs(now - date);
-            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-            
-            // 如果是今天
-            if (diffDays === 0) {
-                return '今天';
-            }
-            
-            // 如果是昨天
-            if (diffDays === 1) {
-                return '昨天';
-            }
-            
-            // 如果是本周内（7天内）
-            if (diffDays <= 7) {
-                return `${diffDays}天前`;
-            }
-            
-            // 如果是本月内
-            if (diffDays <= 30) {
-                return `${Math.floor(diffDays / 7)}周前`;
-            }
-            
-            // 如果是本年内
-            if (date.getFullYear() === now.getFullYear()) {
-                const month = date.getMonth() + 1;
-                const day = date.getDate();
-                return `${month}月${day}日`;
-            }
-            
-            // 超过一年，显示完整日期
             const year = date.getFullYear();
             const month = date.getMonth() + 1;
             const day = date.getDate();
-            return `${year}年${month}月${day}日`;
+            
+            return `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
             
         } catch (error) {
             return dateString; // 如果格式化失败，返回原始字符串
