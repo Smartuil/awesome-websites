@@ -1,0 +1,36 @@
+{
+  "name": "awesome-websites",
+  "version": "1.0.0",
+  "description": "🌍 全球有趣网站收藏 - 收集全球有趣、创意、实用网站的开源项目",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "python -m http.server 8000 --directory src",
+    "serve": "npx serve src -p 8000",
+    "build": "echo 'Static site - no build needed'",
+    "dev": "npm run start",
+    "preview": "npm run start"
+  },
+  "keywords": [
+    "awesome",
+    "websites",
+    "collection",
+    "工具",
+    "设计",
+    "开发",
+    "开源",
+    "网站收藏"
+  ],
+  "author": "Awesome Websites Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/awesome-websites.git"
+  },
+  "homepage": "https://yourusername.github.io/awesome-websites",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

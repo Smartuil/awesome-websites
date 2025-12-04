@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌍 Awesome Websites - 全球有趣网站收藏</title>
+    <meta name="description" content="收集全球有趣、创意、实用网站的开源项目">
+    <meta name="keywords" content="网站收藏, 有趣网站, 工具网站, 设计网站">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="🌍 Awesome Websites - 全球有趣网站收藏">
+    <meta property="og:description" content="收集全球有趣、创意、实用网站的开源项目">
+    <meta property="og:type" content="website">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-icon">🌍</span>
+                    <span class="logo-text">Awesome Websites</span>
+                </h1>
+                <p class="subtitle">全球有趣网站收藏 | 发现精彩，分享快乐</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Stats -->
+            <section class="stats">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalWebsites">0</span>
+                        <span class="stat-label">网站总数</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalCategories">0</span>
+                        <span class="stat-label">分类数量</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalContributors">0</span>
+                        <span class="stat-label">贡献者</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Filter Section -->
+            <section class="filter-section">
+                <div class="filter-controls">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchInput" placeholder="搜索网站名称或描述...">
+                    </div>
+                    <div class="filter-buttons">
+                        <!-- Filter buttons will be generated automatically by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Websites Grid -->
+            <section class="websites-section">
+                <div class="websites-grid" id="websitesGrid">
+                    <!-- Website cards will be inserted here by JavaScript -->
+                </div>
+                <div class="loading" id="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <span>加载中...</span>
+                </div>
+                <div class="no-results" id="noResults" style="display: none;">
+                    <i class="fas fa-search"></i>
+                    <p>没有找到匹配的网站</p>
+                </div>
+            </section>
+
+            <!-- Add Website CTA -->
+            <section class="cta-section">
+                <div class="cta-content">
+                    <h2>发现了有趣的网站？</h2>
+                    <p>欢迎提交PR，与大家分享你的发现！</p>
+                    <a href="https://github.com/yourusername/awesome-websites/blob/main/README.md" class="cta-btn">
+                        <i class="fab fa-github"></i>
+                        提交网站
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Awesome Websites By <a href="https://copilot.tencent.com/" target="_blank" rel="noopener noreferrer" class="codebuddy-link">CodeBuddy</a></p>
+                <div class="footer-links">
+                    <a href="https://github.com/yourusername/awesome-websites">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="回到顶部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+</html>

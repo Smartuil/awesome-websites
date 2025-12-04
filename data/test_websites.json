@@ -1,0 +1,1553 @@
+[
+    {
+    "name": "UnrealEngineLibrary",
+    "url": "https://www.bonan.online/",
+    "description": "全球最大的代码托管平台，开发者协作的首选",
+    "category": "设计创意",
+    "tags": ["代码托管", "开源", "协作"],
+    "logo": "",
+    "submitter": {
+      "name": "示例用户",
+      "github": "example",
+      "twitter": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "description": "全球最大的代码托管平台，开发者协作的首选",
+    "category": "设计创意",
+    "tags": ["代码托管", "开源", "协作"],
+    "logo": "https://github.com/favicon.ico",
+    "submitter": {
+      "name": "示例用户",
+      "github": "example",
+      "twitter": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Dribbble",
+    "url": "https://dribbble.com",
+    "description": "设计师分享作品的社区，获取设计灵感的好地方",
+    "category": "设计创意",
+    "tags": ["设计", "UI", "灵感", "作品展示"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Behance",
+    "url": "https://behance.net",
+    "description": "Adobe旗下的创意作品展示平台，汇集全球优秀设计师",
+    "category": "设计创意",
+    "tags": ["创意", "作品集", "设计社区", "Adobe"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "站酷",
+    "url": "https://zcool.com.cn",
+    "description": "中国设计师互动平台，分享设计作品和创意灵感",
+    "category": "设计创意",
+    "tags": ["中文设计", "设计师社区", "作品分享"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Figma",
+    "url": "https://figma.com",
+    "description": "基于云端的设计工具，支持团队协作的UI/UX设计平台",
+    "category": "UI设计",
+    "tags": ["设计", "UI", "UX", "协作"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Sketch",
+    "url": "https://sketch.com",
+    "description": "Mac平台的专业UI设计工具，深受设计师喜爱",
+    "category": "UI设计",
+    "tags": ["UI设计", "Mac", "专业工具", "设计软件"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "即时设计",
+    "url": "https://js.design",
+    "description": "中国本土的在线UI设计工具，功能全面，支持协作",
+    "category": "UI设计",
+    "tags": ["国产设计", "在线工具", "协作设计", "Figma替代"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Adobe Illustrator",
+    "url": "https://adobe.com/products/illustrator",
+    "description": "Adobe的专业矢量图形设计软件，平面设计师必备工具",
+    "category": "平面设计",
+    "tags": ["矢量设计", "Adobe", "专业软件", "插画"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Canva",
+    "url": "https://canva.com",
+    "description": "在线平面设计平台，模板丰富，非专业设计师也能轻松使用",
+    "category": "平面设计",
+    "tags": ["在线设计", "模板", "简易设计", "海报制作"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "创客贴",
+    "url": "https://chuangkit.com",
+    "description": "中文在线设计平台，提供海量模板，支持海报、PPT等设计",
+    "category": "平面设计",
+    "tags": ["中文设计", "在线工具", "模板库", "海报设计"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Blender",
+    "url": "https://blender.org",
+    "description": "开源免费的三维创作软件，支持建模、动画、渲染等",
+    "category": "3D设计",
+    "tags": ["3D建模", "开源", "动画", "渲染"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Cinema 4D",
+    "url": "https://maxon.net/en/cinema-4d",
+    "description": "专业的3D建模、动画和渲染软件，在影视广告领域广泛应用",
+    "category": "3D设计",
+    "tags": ["3D软件", "动画", "渲染", "专业工具"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Sketchfab",
+    "url": "https://sketchfab.com",
+    "description": "3D模型展示和分享平台，可以在线查看和交互3D作品",
+    "category": "3D设计",
+    "tags": ["3D模型", "作品展示", "在线查看", "交互"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Adobe After Effects",
+    "url": "https://adobe.com/products/aftereffects",
+    "description": "Adobe的动态图形和视觉效果软件，视频后期制作利器",
+    "category": "动画制作",
+    "tags": ["动效", "视频特效", "Adobe", "后期制作"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Lottie",
+    "url": "https://lottiefiles.com",
+    "description": "Airbnb开发的动画库，支持在Web和移动端轻松添加动画",
+    "category": "动画制作",
+    "tags": ["动画库", "Web动画", "移动端", "Airbnb"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "万彩动画大师",
+    "url": "https://animiz.cn",
+    "description": "中文动画制作软件，简单易用，适合制作企业宣传片等",
+    "category": "动画制作",
+    "tags": ["国产动画", "简易制作", "宣传片", "企业动画"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Iconfont",
+    "url": "https://iconfont.cn",
+    "description": "阿里巴巴矢量图标库，提供海量免费图标资源",
+    "category": "图标设计",
+    "tags": ["图标库", "阿里巴巴", "免费图标", "矢量图标"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Flaticon",
+    "url": "https://flaticon.com",
+    "description": "全球最大的图标数据库之一，提供高质量矢量图标",
+    "category": "图标设计",
+    "tags": ["图标资源", "矢量图标", "设计素材", "免费下载"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "The Noun Project",
+    "url": "https://thenounproject.com",
+    "description": "专注于符号和图标的平台，提供统一的视觉语言",
+    "category": "图标设计",
+    "tags": ["符号图标", "视觉语言", "统一设计", "符号库"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Google Fonts",
+    "url": "https://fonts.google.com",
+    "description": "Google提供的免费字体库，包含大量高质量开源字体",
+    "category": "字体设计",
+    "tags": ["免费字体", "Google", "开源字体", "字体库"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Adobe Fonts",
+    "url": "https://fonts.adobe.com",
+    "description": "Adobe的字体订阅服务，提供数万种专业字体",
+    "category": "字体设计",
+    "tags": ["专业字体", "Adobe", "订阅服务", "商业字体"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "字体天下",
+    "url": "https://font.chinaz.com",
+    "description": "中文字体下载网站，提供各种中文字体资源",
+    "category": "字体设计",
+    "tags": ["中文字体", "字体下载", "免费字体", "中文字库"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Coolors",
+    "url": "https://coolors.co",
+    "description": "在线配色方案生成器，快速创建和保存配色",
+    "category": "配色工具",
+    "tags": ["配色工具", "色彩搭配", "调色板", "色彩方案"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Adobe Color",
+    "url": "https://color.adobe.com",
+    "description": "Adobe的在线配色工具，基于色彩理论生成配色方案",
+    "category": "配色工具",
+    "tags": ["配色工具", "Adobe", "色彩理论", "专业配色"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "中国色",
+    "url": "https://zhongguose.com",
+    "description": "中国传统色彩在线工具，展示中国传统颜色体系",
+    "category": "配色工具",
+    "tags": ["中国色彩", "传统颜色", "配色参考", "文化色彩"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Principle",
+    "url": "https://principleformac.com",
+    "description": "Mac端的交互设计工具，用于创建动效和交互原型",
+    "category": "原型设计",
+    "tags": ["交互设计", "动效原型", "Mac工具", "UX工具"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "ProtoPie",
+    "url": "https://protopie.io",
+    "description": "无需编程的原型制作工具，支持复杂的交互设计",
+    "category": "原型设计",
+    "tags": ["无代码原型", "交互原型", "复杂交互", "跨平台"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "墨刀",
+    "url": "https://modao.cc",
+    "description": "中文在线原型设计工具，支持移动端和Web原型制作",
+    "category": "原型设计",
+    "tags": ["国产原型", "在线工具", "移动原型", "Web原型"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Pinterest",
+    "url": "https://pinterest.com",
+    "description": "全球知名的图片分享和灵感收集平台",
+    "category": "灵感素材",
+    "tags": ["灵感收集", "图片分享", "创意灵感", "视觉发现"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Muzli",
+    "url": "https://muz.li",
+    "description": "设计灵感浏览器扩展，实时推送优秀设计案例",
+    "category": "灵感素材",
+    "tags": ["设计灵感", "浏览器扩展", "案例展示", "每日推送"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "花瓣网",
+    "url": "https://huaban.com",
+    "description": "中国的类Pinterest图片收集网站，发现和收集创意灵感",
+    "category": "灵感素材",
+    "tags": ["中文灵感", "图片收集", "创意分享", "花瓣"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Visual Studio Code",
+    "url": "https://code.visualstudio.com",
+    "description": "Microsoft开发的免费代码编辑器，功能强大扩展丰富",
+    "category": "开发工具",
+    "tags": ["代码编辑器", "Microsoft", "免费工具", "扩展丰富"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "GitLab",
+    "url": "https://gitlab.com",
+    "description": "基于Git的开源代码托管平台，支持CI/CD集成",
+    "category": "开发工具",
+    "tags": ["代码托管", "开源", "CI/CD", "Git替代"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Gitee",
+    "url": "https://gitee.com",
+    "description": "中国的代码托管平台，为国内开发者提供更好的访问体验",
+    "category": "开发工具",
+    "tags": ["中文代码托管", "国内平台", "开发者友好", "Git服务"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Sublime Text",
+    "url": "https://sublimetext.com",
+    "description": "轻量级高性能的代码编辑器，启动快速，功能强大",
+    "category": "代码编辑",
+    "tags": ["代码编辑器", "轻量级", "高性能", "付费软件"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "WebStorm",
+    "url": "https://jetbrains.com/webstorm",
+    "description": "JetBrains的专业JavaScript IDE，功能全面的Web开发工具",
+    "category": "代码编辑",
+    "tags": ["JavaScript IDE", "JetBrains", "专业开发", "Web开发"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "HBuilderX",
+    "url": "https://hx.dcloud.net.cn",
+    "description": "DCloud开发的HTML5开发工具，支持多端开发",
+    "category": "代码编辑",
+    "tags": ["HTML5工具", "多端开发", "国产IDE", "uni-app"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com",
+    "description": "全球最大的代码托管和协作平台，开源项目的首选",
+    "category": "代码托管",
+    "tags": ["代码托管", "开源", "协作", "版本控制"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Bitbucket",
+    "url": "https://bitbucket.org",
+    "description": "Atlassian的代码托管平台，与Jira集成良好",
+    "category": "代码托管",
+    "tags": ["代码托管", "Atlassian", "Jira集成", "团队协作"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Coding.net",
+    "url": "https://coding.net",
+    "description": "中国的一站式开发协作平台，提供代码托管和DevOps服务",
+    "category": "代码托管",
+    "tags": ["中文平台", "DevOps", "开发协作", "云端开发"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Postman",
+    "url": "https://postman.com",
+    "description": "强大的API开发和测试工具，支持RESTful API调试",
+    "category": "API工具",
+    "tags": ["API测试", "接口调试", "RESTful", "开发工具"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Insomnia",
+    "url": "https://insomnia.rest",
+    "description": "优雅的REST客户端，支持GraphQL和WebSocket调试",
+    "category": "API工具",
+    "tags": ["REST客户端", "GraphQL", "WebSocket", "API调试"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Apifox",
+    "url": "https://apifox.com",
+    "description": "中文API管理工具，集API设计、调试、文档管理于一体",
+    "category": "API工具",
+    "tags": ["API管理", "中文工具", "接口文档", "调试工具"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "MySQL",
+    "url": "https://mysql.com",
+    "description": "Oracle开源的关系型数据库，广泛用于Web应用开发",
+    "category": "数据库",
+    "tags": ["关系型数据库", "Oracle", "开源", "Web开发"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "MongoDB",
+    "url": "https://mongodb.com",
+    "description": "流行的NoSQL文档数据库，适合处理大数据和实时应用",
+    "category": "数据库",
+    "tags": ["NoSQL", "文档数据库", "大数据", "实时应用"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "TiDB",
+    "url": "https://pingcap.com",
+    "description": "中国开源的分布式SQL数据库，兼容MySQL协议",
+    "category": "数据库",
+    "tags": ["分布式数据库", "中国开源", "MySQL兼容", "HTAP"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Docker Hub",
+    "url": "https://hub.docker.com",
+    "description": "Docker官方的容器镜像仓库，包含大量官方和社区镜像",
+    "category": "部署运维",
+    "tags": ["容器化", "Docker", "镜像仓库", "容器管理"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Kubernetes",
+    "url": "https://kubernetes.io",
+    "description": "Google开源的容器编排平台，云原生应用的事实标准",
+    "category": "部署运维",
+    "tags": ["容器编排", "云原生", "Google开源", "微服务"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "腾讯云",
+    "url": "https://cloud.tencent.com",
+    "description": "腾讯提供的云计算服务，涵盖计算、存储、数据库等",
+    "category": "部署运维",
+    "tags": ["云计算", "云服务", "腾讯", "基础设施"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Jest",
+    "url": "https://jestjs.io",
+    "description": "Facebook开发的JavaScript测试框架，零配置开箱即用",
+    "category": "测试工具",
+    "tags": ["JavaScript测试", "Facebook", "零配置", "单元测试"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Selenium",
+    "url": "https://selenium.dev",
+    "description": "Web应用自动化测试工具，支持多种编程语言和浏览器",
+    "category": "测试工具",
+    "tags": ["自动化测试", "Web测试", "跨浏览器", "多语言"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "腾讯WeTest",
+    "url": "https://wetest.qq.com",
+    "description": "腾讯提供的云测试平台，支持移动应用和游戏测试",
+    "category": "测试工具",
+    "tags": ["云测试", "移动测试", "游戏测试", "腾讯服务"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "npm",
+    "url": "https://npmjs.com",
+    "description": "Node.js的包管理器，世界上最大的软件注册中心",
+    "category": "包管理",
+    "tags": ["包管理", "Node.js", "JavaScript", "开源包"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Yarn",
+    "url": "https://yarnpkg.com",
+    "description": "Facebook开发的JavaScript包管理器，速度快且安全",
+    "category": "包管理",
+    "tags": ["包管理", "Facebook", "快速安装", "安全性"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "cnpm",
+    "url": "https://cnpmjs.org",
+    "description": "淘宝npm镜像，为中国开发者提供更快的包下载速度",
+    "category": "包管理",
+    "tags": ["npm镜像", "淘宝", "国内加速", "包下载"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "ESLint",
+    "url": "https://eslint.org",
+    "description": "JavaScript代码检查工具，保证代码质量和风格一致",
+    "category": "代码质量",
+    "tags": ["代码检查", "JavaScript", "代码质量", "代码风格"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Prettier",
+    "url": "https://prettier.io",
+    "description": "代码格式化工具，支持多种语言的统一格式化",
+    "category": "代码质量",
+    "tags": ["代码格式化", "多语言", "统一风格", "自动化"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "SonarQube",
+    "url": "https://sonarqube.org",
+    "description": "开源的代码质量管理平台，支持多种编程语言",
+    "category": "代码质量",
+    "tags": ["代码质量", "开源工具", "多语言支持", "质量检查"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "iTerm2",
+    "url": "https://iterm2.com",
+    "description": "Mac平台功能强大的终端替代品，支持多标签和分屏",
+    "category": "终端工具",
+    "tags": ["Mac终端", "终端替代", "多标签", "分屏"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Windows Terminal",
+    "url": "https://aka.ms/terminal",
+    "description": "Microsoft开发的新一代Windows终端，支持多标签和自定义",
+    "category": "终端工具",
+    "tags": ["Windows终端", "Microsoft", "多标签", "自定义"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Xshell",
+    "url": "https://netsarang.com/xshell",
+    "description": "专业的SSH客户端，支持Windows平台远程连接Linux服务器",
+    "category": "终端工具",
+    "tags": ["SSH客户端", "远程连接", "Windows工具", "服务器管理"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org",
+    "description": "Mozilla开发者网络，提供权威的Web技术文档和教程",
+    "category": "学习资源",
+    "tags": ["Web文档", "Mozilla", "权威资料", "技术教程"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "freeCodeCamp",
+    "url": "https://freecodecamp.org",
+    "description": "免费的编程学习平台，通过实际项目学习编程技能",
+    "category": "学习资源",
+    "tags": ["免费学习", "项目驱动", "编程教育", "非营利"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "慕课网",
+    "url": "https://imooc.com",
+    "description": "中国知名的IT技能学习平台，提供丰富的编程课程",
+    "category": "学习资源",
+    "tags": ["IT学习", "中文课程", "技能培训", "慕课"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "LeetCode",
+    "url": "https://leetcode.com",
+    "description": "程序员编程练习平台，大量算法题和技术面试题",
+    "category": "编程教程",
+    "tags": ["算法练习", "面试准备", "编程题", "算法竞赛"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Codecademy",
+    "url": "https://codecademy.com",
+    "description": "交互式编程学习平台，边学边写代码的在线课程",
+    "category": "编程教程",
+    "tags": ["交互式学习", "在线编程", "初学者友好", "实战项目"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "菜鸟教程",
+    "url": "https://runoob.com",
+    "description": "中文编程学习网站，涵盖多种编程语言的基础教程",
+    "category": "编程教程",
+    "tags": ["中文教程", "基础学习", "多语言", "免费资源"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Coursera",
+    "url": "https://coursera.org",
+    "description": "与全球顶尖大学和公司合作的在线教育平台",
+    "category": "在线课程",
+    "tags": ["大学课程", "在线学位", "顶尖院校", "专业认证"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Udemy",
+    "url": "https://udemy.com",
+    "description": "全球最大的在线课程市场，涵盖各种技能和主题",
+    "category": "在线课程",
+    "tags": ["课程市场", "技能学习", "终身学习", "实惠价格"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "学堂在线",
+    "url": "https://xuetangx.com",
+    "description": "清华大学发起的中文MOOC平台，汇集国内外优质课程",
+    "category": "在线课程",
+    "tags": ["清华大学", "中文MOOC", "名校课程", "免费学习"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "description": "程序员问答社区，编程问题解决的首选平台",
+    "category": "技术文档",
+    "tags": ["编程问答", "问题解决", "程序员社区", "技术讨论"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "W3Schools",
+    "url": "https://w3schools.com",
+    "description": "Web开发学习网站，提供HTML、CSS、JavaScript等教程",
+    "category": "技术文档",
+    "tags": ["Web教程", "前端学习", "参考资料", "在线编辑器"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "掘金",
+    "url": "https://juejin.cn",
+    "description": "中国开发者技术社区，分享技术文章和开发经验",
+    "category": "技术文档",
+    "tags": ["技术社区", "文章分享", "开发者", "中文内容"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "HackerRank",
+    "url": "https://hackerrank.com",
+    "description": "程序员技能评估平台，通过编程挑战提升技能",
+    "category": "编程练习",
+    "tags": ["编程挑战", "技能评估", "求职准备", "算法训练"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Codewars",
+    "url": "https://codewars.com",
+    "description": "通过解决编程挑战提升技能的武术主题学习平台",
+    "category": "编程练习",
+    "tags": ["编程挑战", "武术主题", "技能升级", "多语言"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "牛客网",
+    "url": "https://nowcoder.com",
+    "description": "中国IT求职学习平台，提供编程练习和面试经验",
+    "category": "编程练习",
+    "tags": ["求职练习", "面试准备", "中文平台", "IT求职"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Khan Academy",
+    "url": "https://khanacademy.org",
+    "description": "非营利教育组织，提供免费的各学科在线课程",
+    "category": "学习平台",
+    "tags": ["免费教育", "非营利", "多学科", "全球学习"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Udacity",
+    "url": "https://udacity.com",
+    "description": "专注于科技和商业技能的在线学习平台，提供纳米学位",
+    "category": "学习平台",
+    "tags": ["科技教育", "纳米学位", "职业培训", "项目导向"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "网易云课堂",
+    "url": "https://study.163.com",
+    "description": "网易旗下的综合在线教育平台，涵盖各类职业技能课程",
+    "category": "学习平台",
+    "tags": ["网易教育", "职业技能", "综合平台", "实用课程"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Martin Fowler's Blog",
+    "url": "https://martinfowler.com",
+    "description": "软件架构大师Martin Fowler的技术博客，分享软件设计思想",
+    "category": "技术博客",
+    "tags": ["软件架构", "设计模式", "技术思想", "大师分享"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "CSS-Tricks",
+    "url": "https://css-tricks.com",
+    "description": "专注前端开发的博客，提供CSS和JavaScript的深入教程",
+    "category": "技术博客",
+    "tags": ["CSS教程", "前端开发", "JavaScript", "Web技术"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "阮一峰的网络日志",
+    "url": "https://ruanyifeng.com/blog",
+    "description": "知名技术博主阮一峰的博客，分享技术学习和思考",
+    "category": "技术博客",
+    "tags": ["中文技术", "前端学习", "科技思考", "知识分享"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "O'Reilly",
+    "url": "https://oreilly.com",
+    "description": "知名技术书籍出版商，提供高质量的技术图书和视频课程",
+    "category": "书籍资源",
+    "tags": ["技术图书", "O'Reilly", "视频课程", "专业出版"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Manning",
+    "url": "https://manning.com",
+    "description": "技术书籍出版商，以MEAP（早期访问计划）著称",
+    "category": "书籍资源",
+    "tags": ["技术出版", "MEAP", "早期访问", "编程书籍"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "图灵教育",
+    "url": "https://www.ituring.com.cn",
+    "description": "中国知名的技术图书出版品牌，引进和出版优质IT书籍",
+    "category": "书籍资源",
+    "tags": ["中文出版", "IT图书", "技术书籍", "图灵社区"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://youtube.com",
+    "description": "全球最大的视频分享平台，包含教育、娱乐、音乐等各类内容",
+    "category": "视频教程",
+    "tags": ["视频平台", "教育视频", "娱乐内容", "全球最大"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Bilibili",
+    "url": "https://bilibili.com",
+    "description": "中国知名的视频弹幕网站，包含大量技术教程和创意内容",
+    "category": "视频教程",
+    "tags": ["弹幕视频", "技术教程", "创意内容", "中文平台"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "TED",
+    "url": "https://ted.com",
+    "description": "分享思想和灵感的平台，汇集各领域专家的精彩演讲",
+    "category": "视频教程",
+    "tags": ["演讲平台", "思想分享", "知识传播", "专家观点"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "description": "全球最大的程序员问答社区，解决编程问题的首选平台",
+    "category": "问答社区",
+    "tags": ["编程问答", "问题解决", "程序员社区", "技术讨论"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://reddit.com",
+    "description": "美国社交新闻聚合网站，包含各种主题的讨论社区",
+    "category": "问答社区",
+    "tags": ["社交新闻", "讨论社区", "多主题", "用户生成"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "SegmentFault",
+    "url": "https://segmentfault.com",
+    "description": "中文开发者社区，提供问答、文章和开发工具",
+    "category": "问答社区",
+    "tags": ["中文社区", "开发者问答", "技术文章", "开发工具"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Steam",
+    "url": "https://store.steampowered.com",
+    "description": "全球最大的PC游戏数字分发平台，提供海量游戏下载",
+    "category": "在线游戏",
+    "tags": ["PC游戏", "数字分发", "游戏社区", "Valve"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Epic Games Store",
+    "url": "https://epicgames.com/store",
+    "description": "Epic Games的游戏商店，每周免费游戏引人关注",
+    "category": "在线游戏",
+    "tags": ["免费游戏", "游戏商店", "Epic", "独占游戏"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "TapTap",
+    "url": "https://taptap.cn",
+    "description": "中国知名的手游社区和分发平台，发现优质手游",
+    "category": "在线游戏",
+    "tags": ["手游平台", "游戏社区", "手游推荐", "TapTap"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Spotify",
+    "url": "https://spotify.com",
+    "description": "全球最大的音乐流媒体平台，个性化推荐算法出色",
+    "category": "音乐平台",
+    "tags": ["音乐流媒体", "个性化推荐", "播客", "全球最大"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Apple Music",
+    "url": "https://music.apple.com",
+    "description": "Apple的音乐流媒体服务，与Apple生态系统深度集成",
+    "category": "音乐平台",
+    "tags": ["Apple生态", "无损音质", "独家内容", "苹果音乐"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "网易云音乐",
+    "url": "https://music.163.com",
+    "description": "中国领先的音乐流媒体平台，音乐社区氛围浓厚",
+    "category": "音乐平台",
+    "tags": ["音乐社区", "评论区", "华语音乐", "云音乐"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Netflix",
+    "url": "https://netflix.com",
+    "description": "全球领先的流媒体娱乐服务，制作大量原创剧集",
+    "category": "视频平台",
+    "tags": ["流媒体", "原创剧集", "电影", "全球订阅"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Twitch",
+    "url": "https://twitch.tv",
+    "description": "亚马逊旗下的游戏直播平台，全球最大的游戏直播社区",
+    "category": "视频平台",
+    "tags": ["游戏直播", "亚马逊", "直播社区", "电竞赛事"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "腾讯视频",
+    "url": "https://v.qq.com",
+    "description": "腾讯旗下的在线视频平台，拥有丰富的影视内容",
+    "category": "视频平台",
+    "tags": ["在线视频", "影视剧", "腾讯出品", "会员服务"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "斗鱼",
+    "url": "https://douyu.com",
+    "description": "中国知名的游戏直播平台，游戏内容丰富",
+    "category": "直播平台",
+    "tags": ["游戏直播", "中文平台", "电竞直播", "娱乐直播"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "虎牙",
+    "url": "https://huya.com",
+    "description": "中国领先的游戏直播平台，互动性强",
+    "category": "直播平台",
+    "tags": ["游戏直播", "互动娱乐", "中文直播", "虎牙TV"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Bilibili直播",
+    "url": "https://live.bilibili.com",
+    "description": "B站的直播平台，涵盖游戏、娱乐、学习等多个领域",
+    "category": "直播平台",
+    "tags": ["多元直播", "B站生态", "弹幕互动", "知识直播"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Apple Podcasts",
+    "url": "https://podcasts.apple.com",
+    "description": "Apple自带的播客应用，全球最大的播客分发平台",
+    "category": "播客电台",
+    "tags": ["播客平台", "Apple生态", "音频内容", "免费收听"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Spotify Podcasts",
+    "url": "https://spotify.com/podcasts",
+    "description": "Spotify的播客服务，音乐和播客一体化平台",
+    "category": "播客电台",
+    "tags": ["播客内容", "Spotify", "音频节目", "播客推荐"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "小宇宙",
+    "url": "https://xiaoyuzhoufm.com",
+    "description": "中文播客社区应用，界面简洁，推荐算法出色",
+    "category": "播客电台",
+    "tags": ["中文播客", "播客社区", "推荐算法", "简洁界面"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Webtoon",
+    "url": "https://webtoons.com",
+    "description": "韩国NAVER的数字漫画平台，全球流行的条漫平台",
+    "category": "漫画阅读",
+    "tags": ["条漫平台", "韩国漫画", "免费阅读", "全球流行"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "MangaDex",
+    "url": "https://mangadex.org",
+    "description": "免费的在线漫画阅读平台，支持多种语言",
+    "category": "漫画阅读",
+    "tags": ["日本漫画", "多语言", "免费阅读", "社区翻译"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "快看漫画",
+    "url": "https://kuaikanmanhua.com",
+    "description": "中国知名的手机漫画平台，主打国漫内容",
+    "category": "漫画阅读",
+    "tags": ["国漫平台", "手机漫画", "原创漫画", "中文漫画"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Kindle",
+    "url": "https://amazon.com/kindle",
+    "description": "Amazon的电子书阅读器和平台，海量电子书资源",
+    "category": "小说阅读",
+    "tags": ["电子书", "Amazon", "Kindle设备", "数字阅读"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Wattpad",
+    "url": "https://wattpad.com",
+    "description": "用户创作的故事分享平台，发现独立作者的作品",
+    "category": "小说阅读",
+    "tags": ["原创小说", "用户创作", "故事分享", "独立作者"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "起点中文网",
+    "url": "https://qidian.com",
+    "description": "中国最大的网络文学网站，汇聚众多网络小说作者",
+    "category": "小说阅读",
+    "tags": ["网络小说", "起点中文网", "中文小说", "网文平台"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://instagram.com",
+    "description": "Meta旗下的图片和短视频分享平台，视觉社交领先",
+    "category": "图片社区",
+    "tags": ["图片分享", "视觉社交", "短视频", "Meta旗下"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Flickr",
+    "url": "https://flickr.com",
+    "description": "专业的摄影社区，提供高质量图片存储和分享",
+    "category": "图片社区",
+    "tags": ["摄影社区", "高清图片", "专业摄影", "图片存储"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "图虫",
+    "url": "https://tuchong.com",
+    "description": "中国知名摄影师社区，分享专业摄影作品",
+    "category": "图片社区",
+    "tags": ["摄影师社区", "专业作品", "中文平台", "摄影分享"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "Slither.io",
+    "url": "https://slither.io",
+    "description": "经典的多人在线贪吃蛇游戏，简单有趣",
+    "category": "小游戏",
+    "tags": ["贪吃蛇", "多人游戏", "休闲游戏", "简单有趣"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "2048",
+    "url": "https://play2048.co",
+    "description": "经典的数字益智游戏，考验逻辑思维",
+    "category": "小游戏",
+    "tags": ["益智游戏", "数字游戏", "逻辑思维", "经典游戏"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "en",
+    "added_date": "2024-12-04"
+  },
+  {
+    "name": "4399小游戏",
+    "url": "https://4399.com",
+    "description": "中国老牌的在线小游戏平台，收录大量Flash小游戏",
+    "category": "小游戏",
+    "tags": ["Flash游戏", "中文平台", "休闲游戏", "童年回忆"],
+    "submitter": {
+      "name": "示例用户",
+      "github": "example"
+    },
+    "language": "zh",
+    "added_date": "2024-12-04"
+  }
+]
