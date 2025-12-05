@@ -54,5 +54,19 @@
         },
         "language": "en",
         "added_date": "2025-12-05"
+    },
+    {
+        "name": "HelloGitHub",
+        "url": "https://hellogithub.com/",
+        "description": "有趣的开源社区",
+        "category": "学习资源",
+        "tags": ["open source", "开源社区"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "https://github.com/Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2025-12-05"
     }
 ]
