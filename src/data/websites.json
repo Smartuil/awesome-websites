@@ -40,5 +40,19 @@
         },
         "language": "en",
         "added_date": "2025-12-05"
+    },
+    {
+        "name": "trendshift",
+        "url": "https://trendshift.io/",
+        "description": "A better way to discover open source",
+        "category": "学习资源",
+        "tags": ["open source", "GitHub Trending", "Daily explore"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "https://github.com/Smartuil"
+        },
+        "language": "en",
+        "added_date": "2025-12-05"
     }
 ]
