@@ -26,5 +26,19 @@
         },
         "language": "en",
         "added_date": "2025-12-04"
+    },
+    {
+        "name": "bruno-simon",
+        "url": "https://bruno-simon.com/",
+        "description": "一款开源的3D博客项目",
+        "category": "技术博客",
+        "tags": ["3D", "博客"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "https://github.com/Smartuil"
+        },
+        "language": "en",
+        "added_date": "2025-12-05"
     }
 ]
