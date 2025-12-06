@@ -68,5 +68,19 @@
         },
         "language": "zh",
         "added_date": "2025-12-05"
+    },
+    {
+        "name": "CodeCrafters",
+        "url": "https://codecrafters.io/",
+        "description": "Master programming by recreating your favorite technologies from scratch.",
+        "category": "学习资源",
+        "tags": ["build-your-own-x"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "https://github.com/Smartuil"
+        },
+        "language": "en",
+        "added_date": "2025-12-06"
     }
 ]
