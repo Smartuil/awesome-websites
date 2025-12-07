@@ -80,18 +80,18 @@
 ### Meta 标签
 ```html
 <!-- 基础SEO -->
-<title>🌍 Awesome Websites - 全球有趣网站收藏 | 发现创意工具与实用网站</title>
+<title>🌍 Awesome Websites - 全球宝藏网站大合集 | 发现创意工具与实用网站</title>
 <meta name="description" content="收集全球有趣、创意、实用网站的开源项目。包含设计工具、开发工具、学习资源、娱乐休闲等多个分类，帮你发现优质网站资源。">
 <meta name="keywords" content="网站收藏, 有趣网站, 工具网站, 设计网站, 开发工具, 学习资源, 创意网站, 实用工具, 网站导航, 资源分享">
 
 <!-- Open Graph -->
-<meta property="og:title" content="🌍 Awesome Websites - 全球有趣网站收藏 | 发现创意工具与实用网站">
+<meta property="og:title" content="🌍 Awesome Websites - 全球宝藏网站大合集 | 发现创意工具与实用网站">
 <meta property="og:description" content="收集全球有趣、创意、实用网站的开源项目。包含设计工具、开发工具、学习资源、娱乐休闲等多个分类，帮你发现优质网站资源。">
 <meta property="og:image" content="https://smartuil.github.io/awesome-websites/og-image.png">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="🌍 Awesome Websites - 全球有趣网站收藏">
+<meta name="twitter:title" content="🌍 Awesome Websites - 全球宝藏网站大合集">
 <meta name="twitter:description" content="收集全球有趣、创意、实用网站的开源项目。发现优质网站资源，提升工作效率。">
 ```
 

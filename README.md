@@ -1,4 +1,4 @@
-# 🌍 Awesome Websites - 全球有趣网站收藏
+# 🌍 Awesome Websites - 全球宝藏网站大合集
 
 <div align="center">
 

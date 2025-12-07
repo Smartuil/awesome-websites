@@ -1,7 +1,7 @@
 {
   "name": "awesome-websites",
   "version": "1.0.0",
-  "description": "🌍 全球有趣网站收藏 - 收集全球有趣、创意、实用网站的开源项目",
+  "description": "🌍 全球宝藏网站大合集 - 收集全球有趣、创意、实用网站的开源项目",
   "main": "src/index.html",
   "scripts": {
     "start": "python -m http.server 8000 --directory src",

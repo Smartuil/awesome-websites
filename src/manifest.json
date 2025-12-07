@@ -1,5 +1,5 @@
 {
-    "name": "Awesome Websites - 全球有趣网站收藏",
+    "name": "Awesome Websites - 全球宝藏网站大合集",
     "short_name": "Awesome Websites",
     "description": "收集全球有趣、创意、实用网站的开源项目。包含设计工具、开发工具、学习资源、娱乐休闲等多个分类。",
     "start_url": "/",
@@ -33,7 +33,7 @@
     ],
     "screenshots": [
         {
-            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 375 812'><rect width='375' height='812' fill='%23f8fafc'/><rect x='0' y='0' width='375' height='200' fill='url(%23gradient)'/><text x='187' y='100' text-anchor='middle' font-size='24' fill='white'>Awesome Websites</text><text x='187' y='130' text-anchor='middle' font-size='14' fill='white'>全球有趣网站收藏</text><rect x='20' y='250' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><rect x='20' y='370' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><rect x='20' y='490' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><defs><linearGradient id='gradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%236366f1'/><stop offset='100%25' style='stop-color:%23ec4899'/></linearGradient></defs></svg>",
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 375 812'><rect width='375' height='812' fill='%23f8fafc'/><rect x='0' y='0' width='375' height='200' fill='url(%23gradient)'/><text x='187' y='100' text-anchor='middle' font-size='24' fill='white'>Awesome Websites</text><text x='187' y='130' text-anchor='middle' font-size='14' fill='white'>全球宝藏网站大合集</text><rect x='20' y='250' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><rect x='20' y='370' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><rect x='20' y='490' width='335' height='100' rx='12' fill='white' stroke='%23e2e8f0'/><defs><linearGradient id='gradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%236366f1'/><stop offset='100%25' style='stop-color:%23ec4899'/></linearGradient></defs></svg>",
             "sizes": "375x812",
             "type": "image/svg+xml",
             "form_factor": "narrow",
