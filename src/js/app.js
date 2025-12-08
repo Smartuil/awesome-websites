@@ -321,7 +321,19 @@ class AwesomeWebsites {
             '硬件设备': { icon: '🖱️', description: '硬件设备、数码产品、科技产品' },
             '测试服务': { icon: '🧪', description: '测试服务、在线测试、检测工具' },
             '营销推广': { icon: '📢', description: '营销推广、广告工具、推广服务' },
-            '企业管理': { icon: '🏢', description: '企业管理、ERP系统、企业服务' }
+            '企业管理': { icon: '🏢', description: '企业管理、ERP系统、企业服务' },
+            
+            // 🚀 现代服务类
+            '低代码平台': { icon: '🔄', description: '低代码开发、无代码平台、快速开发工具' },
+            'SaaS服务': { icon: '☁️', description: '软件即服务、云应用、订阅服务' },
+            '开源项目': { icon: '🐙', description: '开源软件、开源项目、开源社区' },
+            '远程办公': { icon: '🏠', description: '远程协作、在线办公、远程工作工具' },
+            '数字营销': { icon: '📈', description: '数字营销、推广工具、营销自动化' },
+            '内容创作': { icon: '✍️', description: '内容创作、自媒体工具、创作平台' },
+            '数据科学': { icon: '🔬', description: '数据科学、数据分析、数据挖掘工具' },
+            '物联网': { icon: '📡', description: '物联网设备、IoT平台、智能设备' },
+            '元宇宙': { icon: '🌌', description: '虚拟现实、增强现实、元宇宙平台' },
+            '绿色科技': { icon: '🌿', description: '环保科技、可持续发展、绿色技术' }
         };
         
         return categoryMap[categoryName] || { 
@@ -543,7 +555,19 @@ class AwesomeWebsites {
             '硬件设备': 'hardware',
             '测试服务': 'testing-service',
             '营销推广': 'marketing',
-            '企业管理': 'business-management'
+            '企业管理': 'business-management',
+            
+            // 🚀 现代服务类（新增）
+            '低代码平台': 'low-code-platform',
+            'SaaS服务': 'saas-services',
+            '开源项目': 'open-source',
+            '远程办公': 'remote-work',
+            '数字营销': 'digital-marketing',
+            '内容创作': 'content-creation',
+            '数据科学': 'data-science',
+            '物联网': 'iot',
+            '元宇宙': 'metaverse',
+            '绿色科技': 'green-tech'
         };
         
         return idMap[categoryName] || categoryName.toLowerCase().replace(/[^a-z0-9]/g, '');

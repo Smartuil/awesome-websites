@@ -89,6 +89,239 @@
 | 📷 图片社区 | ![Photo](https://img.shields.io/badge/-图片社区-E4405F?logo=instagram&logoColor=white) | 图片分享与摄影 | Instagram、Flickr、图虫 |
 | 🎯 小游戏 | ![Mini](https://img.shields.io/badge/-小游戏-0099FF?logo=2048&logoColor=white) | 休闲小游戏与娱乐 | Slither.io、2048、4399小游戏 |
 
+### 🔧 实用工具类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🔧 实用工具 | ![Tools](https://img.shields.io/badge/-实用工具-FF6B6B?logo=tools&logoColor=white) | 生产力工具、在线工具、实用网站 | TinyWow、iLovePDF、Canva |
+| 🔄 文件转换 | ![Convert](https://img.shields.io/badge/-文件转换-4ECDC4?logo=fileconverter&logoColor=white) | 文件转换、格式转换、文档转换 | CloudConvert、Zamzar、OnlineConvert |
+| 📄 文本工具 | ![Text](https://img.shields.io/badge/-文本工具-45B7D1?logo=text&logoColor=white) | 文本处理、文本工具、文字工具 | TextFixer、TextCompare、DiffChecker |
+| 🧮 计算工具 | ![Calc](https://img.shields.io/badge/-计算工具-9B59B6?logo=calculator&logoColor=white) | 在线计算器、数学工具、统计工具 | Calculator.net、Wolfram Alpha、Desmos |
+| 📦 压缩工具 | ![Compress](https://img.shields.io/badge/-压缩工具-E74C3C?logo=zip&logoColor=white) | 文件压缩、解压工具、压缩软件 | WinRAR Online、7-Zip Online、Extract.me |
+| 📱 二维码 | ![QR](https://img.shields.io/badge/-二维码-F39C12?logo=qrcode&logoColor=white) | 二维码生成、二维码扫描、条形码 | QR Code Generator、QR Tiger、QRStuff |
+| 🔐 密码管理 | ![Password](https://img.shields.io/badge/-密码管理-8E44AD?logo=password&logoColor=white) | 密码生成、密码管理、安全工具 | LastPass、Bitwarden、1Password |
+| 🌐 网络工具 | ![Network](https://img.shields.io/badge/-网络工具-16A085?logo=network&logoColor=white) | 网络工具、IP查询、网络检测 | IPinfo、Speedtest、Pingdom |
+| ⏰ 时间工具 | ![Time](https://img.shields.io/badge/-时间工具-2ECC71?logo=clock&logoColor=white) | 时钟、计时器、闹钟、时间工具 | WorldTimeBuddy、Time.is、Online Stopwatch |
+| ⚖️ 单位转换 | ![Unit](https://img.shields.io/badge/-单位转换-E67E22?logo=ruler&logoColor=white) | 单位转换、度量衡、换算工具 | ConvertUnits、UnitConverters、Metric-Conversions |
+| 🌤️ 天气查询 | ![Weather](https://img.shields.io/badge/-天气查询-3498DB?logo=weather&logoColor=white) | 天气预报、天气查询、气象工具 | Weather.com、AccuWeather、Weather Underground |
+| 🗺️ 地图导航 | ![Map](https://img.shields.io/badge/-地图导航-E74C3C?logo=map&logoColor=white) | 地图服务、导航工具、位置服务 | Google Maps、百度地图、高德地图 |
+| 🌍 翻译工具 | ![Translate](https://img.shields.io/badge/-翻译工具-4285F4?logo=googletranslate&logoColor=white) | 在线翻译、语言翻译、翻译工具 | Google Translate、DeepL、百度翻译 |
+| 📄 PDF工具 | ![PDF](https://img.shields.io/badge/-PDF工具-DC3545?logo=adobeacrobatreader&logoColor=white) | PDF编辑、PDF转换、PDF工具 | SmallPDF、iLovePDF、PDF24 |
+| 📸 截图工具 | ![Screenshot](https://img.shields.io/badge/-截图工具-FF6C37?logo=screenshot&logoColor=white) | 截图工具、屏幕录制、图像捕捉 | Lightshot、Greenshot、ShareX |
+
+### 📊 数据分析类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 📊 数据分析 | ![Analytics](https://img.shields.io/badge/-数据分析-4479A1?logo=googleanalytics&logoColor=white) | 数据可视化、统计工具、数据分析 | Google Analytics、Tableau、Power BI |
+| 📈 图表制作 | ![Charts](https://img.shields.io/badge/-图表制作-2496ED?logo=chart&logoColor=white) | 图表工具、数据可视化、图形制作 | Chart.js、D3.js、ChartBlocks |
+| ⛏️ 数据挖掘 | ![Mining](https://img.shields.io/badge/-数据挖掘-C21325?logo=datamining&logoColor=white) | 数据挖掘、数据科学、机器学习 | Kaggle、DataCamp、Analytics Vidhya |
+| 📉 统计分析 | ![Stats](https://img.shields.io/badge/-统计分析-CB3837?logo=statistics&logoColor=white) | 统计分析、数据统计、统计软件 | RStudio、SPSS Online、Statista |
+| 📊 BI工具 | ![BI](https://img.shields.io/badge/-BI工具-4B32C3?logo=businessintelligence&logoColor=white) | 商业智能、BI工具、数据报表 | Microsoft Power BI、Qlik Sense、Looker |
+| 🗃️ 大数据 | ![BigData](https://img.shields.io/badge/-大数据-000000?logo=apachespark&logoColor=white) | 大数据工具、数据处理、数据分析 | Apache Hadoop、Spark、Cloudera |
+| 🎯 数据可视化 | ![Viz](https://img.shields.io/badge/-数据可视化-006400?logo=dataviz&logoColor=white) | 数据可视化、信息图表、数据展示 | Datawrapper、Infogram、Flourish |
+| 📋 Excel工具 | ![Excel](https://img.shields.io/badge/-Excel工具-217346?logo=microsoftexcel&logoColor=white) | Excel工具、表格处理、电子表格 | Excel Online、Google Sheets、Zoho Sheet |
+
+### 🌐 Web3/区块链类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🌐 Web3/区块链 | ![Web3](https://img.shields.io/badge/-Web3区块链-FE7A16?logo=ethereum&logoColor=white) | 加密货币、NFT、DeFi、区块链应用 | Ethereum、Binance Smart Chain、Polygon |
+| ₿ 加密货币 | ![Crypto](https://img.shields.io/badge/-加密货币-005A9C?logo=bitcoin&logoColor=white) | 比特币、加密货币、数字货币 | Coinbase、Binance、Kraken |
+| 🎨 NFT市场 | ![NFT](https://img.shields.io/badge/-NFT市场-F48024?logo=nft&logoColor=white) | NFT交易、数字藏品、NFT市场 | OpenSea、Rarible、Magic Eden |
+| 💰 DeFi工具 | ![DeFi](https://img.shields.io/badge/-DeFi工具-3DDC84?logo=defi&logoColor=white) | DeFi协议、去中心化金融、金融工具 | Uniswap、Aave、Compound |
+| 👛 钱包工具 | ![Wallet](https://img.shields.io/badge/-钱包工具-14B56F?logo=cryptowallet&logoColor=white) | 加密钱包、数字钱包、钱包管理 | MetaMask、Trust Wallet、Coinbase Wallet |
+| 🔍 区块链浏览器 | ![Explorer](https://img.shields.io/badge/-区块链浏览器-FF5722?logo=blockexplorer&logoColor=white) | 区块链浏览器、交易查询、区块信息 | Etherscan、BscScan、PolygonScan |
+| 💹 交易工具 | ![Trading](https://img.shields.io/badge/-交易工具-000000?logo=trading&logoColor=white) | 加密货币交易、交易所、交易工具 | TradingView、CoinGecko、CoinMarketCap |
+| ⚡ 挖矿工具 | ![Mining](https://img.shields.io/badge/-挖矿工具-BCBBBB?logo=mining&logoColor=white) | 挖矿工具、算力租赁、挖矿软件 | NiceHash、Hive OS、Minerstat |
+
+### 🤖 人工智能类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🤖 人工智能 | ![AI](https://img.shields.io/badge/-人工智能-171A21?logo=ai&logoColor=white) | AI工具、机器学习、人工智能应用 | OpenAI、Google AI、Microsoft AI |
+| 🧠 机器学习 | ![ML](https://img.shields.io/badge/-机器学习-1DB954?logo=machinelearning&logoColor=white) | 机器学习、深度学习、神经网络 | TensorFlow、PyTorch、Scikit-learn |
+| 🎨 AI绘画 | ![AIPaint](https://img.shields.io/badge/-AI绘画-E50914?logo=aiart&logoColor=white) | AI绘画、图像生成、AI艺术 | Midjourney、DALL-E、Stable Diffusion |
+| ✍️ AI写作 | ![AIWrite](https://img.shields.io/badge/-AI写作-6441A5?logo=aiwriting&logoColor=white) | AI写作、文本生成、内容创作 | ChatGPT、Claude、Jasper AI |
+| 🎤 语音识别 | ![Speech](https://img.shields.io/badge/-语音识别-9945FF?logo=speechrecognition&logoColor=white) | 语音识别、语音合成、语音工具 | Google Speech、Azure Speech、Amazon Polly |
+| 👁️ 图像识别 | ![Vision](https://img.shields.io/badge/-图像识别-00D084?logo=computervision&logoColor=white) | 图像识别、计算机视觉、图像处理 | Google Vision、Azure Computer Vision、Clarifai |
+| 🤝 AI助手 | ![Assistant](https://img.shields.io/badge/-AI助手-F75C03?logo=aiassistant&logoColor=white) | AI助手、智能客服、对话机器人 | Siri、Alexa、Google Assistant |
+| 🦾 大模型 | ![LLM](https://img.shields.io/badge/-大模型-E4405F?logo=llm&logoColor=white) | 大语言模型、GPT、AI模型 | GPT-4、Claude、LLaMA |
+| 💻 AI编程 | ![AICode](https://img.shields.io/badge/-AI编程-0099FF?logo=aicode&logoColor=white) | AI编程、代码生成、AI辅助开发 | GitHub Copilot、Tabnine、Codeium |
+
+### 📱 社交媒体类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 📱 社交媒体 | ![Social](https://img.shields.io/badge/-社交媒体-FF6B6B?logo=socialmedia&logoColor=white) | 社交平台、社区论坛、即时通讯 | Facebook、Twitter、LinkedIn |
+| 💬 即时通讯 | ![Messaging](https://img.shields.io/badge/-即时通讯-4ECDC4?logo=messaging&logoColor=white) | 聊天工具、即时通讯、消息应用 | WhatsApp、Telegram、Discord |
+| 👥 社区论坛 | ![Forum](https://img.shields.io/badge/-社区论坛-45B7D1?logo=forum&logoColor=white) | 论坛社区、讨论区、社交网络 | Reddit、Stack Exchange、知乎 |
+| 📝 博客平台 | ![Blog](https://img.shields.io/badge/-博客平台-9B59B6?logo=blog&logoColor=white) | 博客平台、个人博客、写作平台 | WordPress、Medium、Blogger |
+| 📹 短视频 | ![ShortVideo](https://img.shields.io/badge/-短视频-E74C3C?logo=shortvideo&logoColor=white) | 短视频平台、视频分享、创意视频 | TikTok、YouTube Shorts、Instagram Reels |
+| 🎓 知识社区 | ![Knowledge](https://img.shields.io/badge/-知识社区-F39C12?logo=knowledge&logoColor=white) | 知识分享、问答社区、专家平台 | Quora、Stack Overflow、SegmentFault |
+| ❤️ 兴趣社区 | ![Interest](https://img.shields.io/badge/-兴趣社区-8E44AD?logo=interest&logoColor=white) | 兴趣社区、爱好者平台、专题社区 | Pinterest、Goodreads、豆瓣 |
+| 💼 职业社交 | ![Career](https://img.shields.io/badge/-职业社交-16A085?logo=career&logoColor=white) | 职业社交、招聘平台、职场社区 | LinkedIn、Indeed、智联招聘 |
+
+### 🛒 电商购物类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🛒 电商平台 | ![Ecommerce](https://img.shields.io/badge/-电商平台-2ECC71?logo=ecommerce&logoColor=white) | 在线购物、电商网站、二手交易 | Amazon、淘宝、京东 |
+| ♻️ 二手交易 | ![Secondhand](https://img.shields.io/badge/-二手交易-E67E22?logo=secondhand&logoColor=white) | 二手市场、闲置交易、回收平台 | eBay、闲鱼、转转 |
+| 🔍 比价工具 | ![Price](https://img.shields.io/badge/-比价工具-3498DB?logo=pricecomparison&logoColor=white) | 价格比较、比价网站、优惠信息 | PriceGrabber、CamelCamelCamel、什么值得买 |
+| 👨‍👩‍👧‍👦 团购平台 | ![GroupBuy](https://img.shields.io/badge/-团购平台-E74C3C?logo=groupbuy&logoColor=white) | 团购网站、优惠团购、拼团平台 | Groupon、美团、拼多多 |
+| 🌍 海淘代购 | ![Overseas](https://img.shields.io/badge/-海淘代购-4285F4?logo=overseasshopping&logoColor=white) | 海淘网站、代购平台、跨境购物 | Amazon Global、iHerb、网易考拉 |
+| 🎫 优惠券 | ![Coupon](https://img.shields.io/badge/-优惠券-DC3545?logo=coupon&logoColor=white) | 优惠券、折扣信息、促销活动 | RetailMeNot、Coupons.com、一淘 |
+| 🔨 拍卖平台 | ![Auction](https://img.shields.io/badge/-拍卖平台-FF6C37?logo=auction&logoColor=white) | 在线拍卖、竞价平台、拍卖网站 | eBay、Christie's、Sotheby's |
+
+### 📰 新闻资讯类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 📰 新闻资讯 | ![News](https://img.shields.io/badge/-新闻资讯-4479A1?logo=news&logoColor=white) | 新闻网站、资讯平台、博客 | BBC News、CNN、新华网 |
+| 💡 科技新闻 | ![TechNews](https://img.shields.io/badge/-科技新闻-2496ED?logo=technews&logoColor=white) | 科技新闻、技术资讯、IT新闻 | TechCrunch、The Verge、36氪 |
+| 💹 财经资讯 | ![Finance](https://img.shields.io/badge/-财经资讯-C21325?logo=finance&logoColor=white) | 财经新闻、投资资讯、股市信息 | Bloomberg、Reuters、东方财富 |
+| 🌟 娱乐八卦 | ![Entertainment](https://img.shields.io/badge/-娱乐八卦-CB3837?logo=entertainment&logoColor=white) | 娱乐新闻、明星八卦、娱乐资讯 | TMZ、E! Online、新浪娱乐 |
+| ⚽ 体育新闻 | ![Sports](https://img.shields.io/badge/-体育新闻-4B32C3?logo=sports&logoColor=white) | 体育新闻、赛事资讯、体育直播 | ESPN、NBA.com、腾讯体育 |
+| 📡 资讯聚合 | ![Aggregator](https://img.shields.io/badge/-资讯聚合-000000?logo=aggregator&logoColor=white) | 新闻聚合、资讯订阅、RSS阅读 | Feedly、Flipboard、Google News |
+| 🔍 深度报道 | ![InDepth](https://img.shields.io/badge/-深度报道-006400?logo=indepth&logoColor=white) | 深度报道、调查新闻、专题报道 | The New Yorker、ProPublica、财新网 |
+| 📊 行业资讯 | ![Industry](https://img.shields.io/badge/-行业资讯-217346?logo=industry&logoColor=white) | 行业新闻、专业资讯、市场分析 | Industry Dive、Forbes、Harvard Business Review |
+
+### 🖼️ 媒体处理类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🖼️ 图片处理 | ![Image](https://img.shields.io/badge/-图片处理-FE7A16?logo=imageprocessing&logoColor=white) | 图片编辑、在线PS、图像处理 | Photoshop Online、GIMP、Pixlr |
+| 🎬 视频处理 | ![Video](https://img.shields.io/badge/-视频处理-005A9C?logo=videoprocessing&logoColor=white) | 视频编辑、在线剪辑、视频工具 | Adobe Premiere Rush、DaVinci Resolve、Clipchamp |
+| 🎵 音频处理 | ![Audio](https://img.shields.io/badge/-音频处理-F48024?logo=audioprocessing&logoColor=white) | 音频编辑、音乐制作、声音处理 | Audacity Online、Soundtrap、BandLab |
+| 🎞️ GIF制作 | ![GIF](https://img.shields.io/badge/-GIF制作-3DDC84?logo=gif&logoColor=white) | GIF制作、动图制作、表情包 | Giphy、EZGIF、Imgflip |
+| 🗜️ 图片压缩 | ![Compress](https://img.shields.io/badge/-图片压缩-14B56F?logo=imagecompression&logoColor=white) | 图片压缩、图片优化、图片瘦身 | TinyPNG、Compressor.io、Squoosh |
+| ✨ 滤镜特效 | ![Filter](https://img.shields.io/badge/-滤镜特效-FF5722?logo=filter&logoColor=white) | 图片滤镜、特效处理、美颜工具 | VSCO、Snapseed、FaceApp |
+| 🔄 格式转换 | ![Format](https://img.shields.io/badge/-格式转换-000000?logo=formatconversion&logoColor=white) | 格式转换、媒体转换、文件转换 | CloudConvert、Online-Convert、Zamzar |
+
+### 📄 办公协作类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 📄 在线办公 | ![Office](https://img.shields.io/badge/-在线办公-BCBBBB?logo=office&logoColor=white) | 在线文档、表格、演示文稿 | Google Workspace、Microsoft 365、金山文档 |
+| 🤝 协作工具 | ![Collaboration](https://img.shields.io/badge/-协作工具-171A21?logo=collaboration&logoColor=white) | 团队协作、项目管理、协作平台 | Slack、Trello、Asana |
+| 📝 文档编辑 | ![Document](https://img.shields.io/badge/-文档编辑-1DB954?logo=document&logoColor=white) | 文档编辑、在线写作、文字处理 | Google Docs、Notion、Evernote |
+| 📊 表格工具 | ![Spreadsheet](https://img.shields.io/badge/-表格工具-E50914?logo=spreadsheet&logoColor=white) | 电子表格、数据表格、Excel在线 | Google Sheets、Airtable、Smartsheet |
+| 📽️ 演示文稿 | ![Presentation](https://img.shields.io/badge/-演示文稿-6441A5?logo=presentation&logoColor=white) | PPT制作、演示文稿、幻灯片工具 | Google Slides、Canva、Prezi |
+| 📓 笔记工具 | ![Notes](https://img.shields.io/badge/-笔记工具-9945FF?logo=notes&logoColor=white) | 笔记应用、知识管理、备忘录 | Notion、OneNote、Bear |
+| 🎯 白板协作 | ![Whiteboard](https://img.shields.io/badge/-白板协作-00D084?logo=whiteboard&logoColor=white) | 在线白板、协作画板、思维导图 | Miro、Figma Jam、Mural |
+| 📹 会议工具 | ![Meeting](https://img.shields.io/badge/-会议工具-F75C03?logo=meeting&logoColor=white) | 视频会议、在线会议、会议工具 | Zoom、Microsoft Teams、Google Meet |
+| 📅 日历管理 | ![Calendar](https://img.shields.io/badge/-日历管理-E4405F?logo=calendar&logoColor=white) | 日历工具、日程管理、时间规划 | Google Calendar、Outlook Calendar、Apple Calendar |
+| 📧 邮件工具 | ![Email](https://img.shields.io/badge/-邮件工具-0099FF?logo=email&logoColor=white) | 邮件客户端、邮件管理、邮箱服务 | Gmail、Outlook、ProtonMail |
+
+### ☁️ 云服务类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| ☁️ 云存储 | ![Cloud](https://img.shields.io/badge/-云存储-FF6B6B?logo=cloudstorage&logoColor=white) | 网盘、云存储、文件同步 | Google Drive、Dropbox、OneDrive |
+| 🌐 云服务 | ![CloudService](https://img.shields.io/badge/-云服务-4ECDC4?logo=cloudservice&logoColor=white) | 云服务、云计算、服务器租赁 | AWS、Azure、Google Cloud |
+| 🚀 CDN服务 | ![CDN](https://img.shields.io/badge/-CDN服务-45B7D1?logo=cdn&logoColor=white) | CDN加速、内容分发、网络加速 | Cloudflare、Akamai、Fastly |
+| 🌍 域名服务 | ![Domain](https://img.shields.io/badge/-域名服务-9B59B6?logo=domain&logoColor=white) | 域名注册、域名管理、DNS服务 | GoDaddy、Namecheap、Cloudflare Registrar |
+| 🏗️ 网站建设 | ![Website](https://img.shields.io/badge/-网站建设-E74C3C?logo=website&logoColor=white) | 网站建设、建站工具、网站托管 | WordPress.com、Wix、Squarespace |
+| 🖥️ 服务器 | ![Server](https://img.shields.io/badge/-服务器-F39C12?logo=server&logoColor=white) | 服务器租用、VPS、主机托管 | DigitalOcean、Linode、Vultr |
+| 🗄️ 云数据库 | ![CloudDB](https://img.shields.io/badge/-云数据库-8E44AD?logo=clouddatabase&logoColor=white) | 云数据库、数据库服务、数据存储 | MongoDB Atlas、Amazon RDS、Google Cloud SQL |
+| ⚡ 云函数 | ![Function](https://img.shields.io/badge/-云函数-16A085?logo=cloudfunction&logoColor=white) | 云函数、无服务器、函数计算 | AWS Lambda、Azure Functions、Google Cloud Functions |
+
+### 🎓 教育培训类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🎓 在线教育 | ![Education](https://img.shields.io/badge/-在线教育-2ECC71?logo=education&logoColor=white) | 在线教育、远程学习、教育平台 | Coursera、edX、Udemy |
+| 🗣️ 语言学习 | ![Language](https://img.shields.io/badge/-语言学习-E67E22?logo=languagestudy&logoColor=white) | 语言学习、外语培训、翻译学习 | Duolingo、Babbel、Rosetta Stone |
+| 🛠️ 技能培训 | ![Skills](https://img.shields.io/badge/-技能培训-3498DB?logo=skilltraining&logoColor=white) | 技能培训、职业技能、培训课程 | LinkedIn Learning、Skillshare、Pluralsight |
+| 📝 考试培训 | ![Exam](https://img.shields.io/badge/-考试培训-E74C3C?logo=exam&logoColor=white) | 考试培训、考试准备、题库练习 | Khan Academy、Quizlet、ExamSoft |
+| 👶 儿童教育 | ![Kids](https://img.shields.io/badge/-儿童教育-4285F4?logo=kidseducation&logoColor=white) | 儿童教育、早教平台、亲子教育 | ABCmouse、PBS Kids、National Geographic Kids |
+| 🎭 艺术培训 | ![Art](https://img.shields.io/badge/-艺术培训-DC3545?logo=arteducation&logoColor=white) | 艺术培训、美术教育、音乐培训 | Skillshare、MasterClass、The Great Courses |
+
+### 🏥 健康医疗类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🏥 健康管理 | ![Health](https://img.shields.io/badge/-健康管理-FF6C37?logo=health&logoColor=white) | 健康管理、医疗咨询、健康工具 | WebMD、Mayo Clinic、Healthline |
+| 💪 运动健身 | ![Fitness](https://img.shields.io/badge/-运动健身-4479A1?logo=fitness&logoColor=white) | 运动健身、健身指导、运动工具 | MyFitnessPal、Strava、Nike Training Club |
+| 🔍 医疗查询 | ![Medical](https://img.shields.io/badge/-医疗查询-2496ED?logo=medical&logoColor=white) | 医疗查询、症状自查、药品查询 | Drugs.com、MedlinePlus、RxList |
+| 🧠 心理测试 | ![Psychology](https://img.shields.io/badge/-心理测试-C21325?logo=psychology&logoColor=white) | 心理测试、心理测评、心理咨询 | Psychology Today、BetterHelp、Talkspace |
+
+### 🚗 出行旅游类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| ✈️ 旅游攻略 | ![Travel](https://img.shields.io/badge/-旅游攻略-CB3837?logo=travel&logoColor=white) | 旅游攻略、旅行指南、景点介绍 | TripAdvisor、Lonely Planet、Booking.com |
+| 🏨 酒店预订 | ![Hotel](https://img.shields.io/badge/-酒店预订-4B32C3?logo=hotel&logoColor=white) | 酒店预订、住宿预订、民宿平台 | Booking.com、Expedia、Airbnb |
+| 🚗 交通出行 | ![Transport](https://img.shields.io/badge/-交通出行-000000?logo=transport&logoColor=white) | 交通出行、打车软件、公共交通 | Uber、Lyft、Google Maps Transit |
+| 🗺️ 地图服务 | ![Maps](https://img.shields.io/badge/-地图服务-006400?logo=maps&logoColor=white) | 地图服务、导航工具、位置服务 | Google Maps、百度地图、高德地图 |
+| 🍽️ 美食推荐 | ![Food](https://img.shields.io/badge/-美食推荐-217346?logo=food&logoColor=white) | 美食推荐、餐厅查询、外卖订餐 | Yelp、OpenTable、美团外卖 |
+
+### 💰 金融理财类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 💰 金融理财 | ![Finance](https://img.shields.io/badge/-金融理财-FE7A16?logo=finance&logoColor=white) | 理财工具、投资理财、金融产品 | Mint、Personal Capital、Robinhood |
+| 🏦 银行服务 | ![Banking](https://img.shields.io/badge/-银行服务-005A9C?logo=banking&logoColor=white) | 网上银行、银行服务、金融应用 | Chase、Bank of America、Wells Fargo |
+| 🛡️ 保险服务 | ![Insurance](https://img.shields.io/badge/-保险服务-F48024?logo=insurance&logoColor=white) | 保险服务、保险购买、理赔服务 | Geico、Progressive、State Farm |
+| 💳 信用卡 | ![Credit](https://img.shields.io/badge/-信用卡-3DDC84?logo=creditcard&logoColor=white) | 信用卡申请、信用卡管理、银行卡服务 | Credit Karma、NerdWallet、Bankrate |
+| 📈 股票基金 | ![Stocks](https://img.shields.io/badge/-股票基金-14B56F?logo=stocks&logoColor=white) | 股票交易、基金投资、证券服务 | E*TRADE、Fidelity、Vanguard |
+
+### 🎨 创意生活类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🌸 生活美学 | ![Lifestyle](https://img.shields.io/badge/-生活美学-FF5722?logo=lifestyle&logoColor=white) | 生活美学、生活方式、品质生活 | Apartment Therapy、The Spruce、Real Simple |
+| 🧵 手工艺 | ![Crafts](https://img.shields.io/badge/-手工艺-000000?logo=crafts&logoColor=white) | 手工艺、DIY制作、手工教程 | Etsy、Craftsy、Instructables |
+| 👨‍🍳 美食菜谱 | ![Recipes](https://img.shields.io/badge/-美食菜谱-BCBBBB?logo=recipes&logoColor=white) | 美食菜谱、烹饪教程、美食分享 | AllRecipes、Food Network、Tasty |
+| 🏠 家居装饰 | ![Home](https://img.shields.io/badge/-家居装饰-171A21?logo=homedecor&logoColor=white) | 家居装饰、室内设计、装修灵感 | Houzz、IKEA、Wayfair |
+| 🐾 宠物相关 | ![Pets](https://img.shields.io/badge/-宠物相关-1DB954?logo=pets&logoColor=white) | 宠物用品、宠物医疗、宠物社区 | Chewy、Petco、Rover |
+
+### 🔒 安全隐私类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🔒 安全工具 | ![Security](https://img.shields.io/badge/-安全工具-E50914?logo=security&logoColor=white) | 安全工具、隐私保护、网络安全 | Norton、McAfee、Malwarebytes |
+| 🛡️ VPN服务 | ![VPN](https://img.shields.io/badge/-VPN服务-6441A5?logo=vpn&logoColor=white) | VPN服务、网络代理、隐私保护 | ExpressVPN、NordVPN、Surfshark |
+| 🔐 密码安全 | ![Password](https://img.shields.io/badge/-密码安全-9945FF?logo=passwordsecurity&logoColor=white) | 密码管理、安全认证、加密工具 | LastPass、1Password、Bitwarden |
+| 🦠 杀毒软件 | ![Antivirus](https://img.shields.io/badge/-杀毒软件-00D084?logo=antivirus&logoColor=white) | 杀毒软件、安全防护、病毒查杀 | Avast、AVG、Kaspersky |
+
+### 🌱 环保公益类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🌱 环保公益 | ![Eco](https://img.shields.io/badge/-环保公益-F75C03?logo=eco&logoColor=white) | 环保公益、绿色生活、公益项目 | WWF、Greenpeace、The Nature Conservancy |
+| ❤️ 慈善捐助 | ![Charity](https://img.shields.io/badge/-慈善捐助-E4405F?logo=charity&logoColor=white) | 慈善捐助、公益募捐、志愿服务 | GoFundMe、Charity Navigator、JustGiving |
+| ♻️ 二手回收 | ![Recycling](https://img.shields.io/badge/-二手回收-0099FF?logo=recycling&logoColor=white) | 二手回收、环保回收、循环利用 | Freecycle、Craigslist、OfferUp |
+
+### 🎯 其他分类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🧭 工具导航 | ![Navigation](https://img.shields.io/badge/-工具导航-FF6B6B?logo=navigation&logoColor=white) | 工具导航、网站导航、资源导航 | Product Hunt、AlternativeTo、SimilarSites |
+| ⬇️ 软件下载 | ![Download](https://img.shields.io/badge/-软件下载-4ECDC4?logo=download&logoColor=white) | 软件下载、应用商店、软件工具 | Softonic、FileHippo、CNET Download |
+| 🌐 浏览器 | ![Browser](https://img.shields.io/badge/-浏览器-45B7D1?logo=browser&logoColor=white) | 浏览器、插件扩展、上网工具 | Chrome Web Store、Firefox Add-ons、Edge Add-ons |
+| 💻 操作系统 | ![OS](https://img.shields.io/badge/-操作系统-9B59B6?logo=operatingsystem&logoColor=white) | 操作系统、系统工具、系统优化 | Microsoft、Apple、Linux Distributions |
+| 🖱️ 硬件设备 | ![Hardware](https://img.shields.io/badge/-硬件设备-E74C3C?logo=hardware&logoColor=white) | 硬件设备、数码产品、科技产品 | Newegg、Best Buy、Micro Center |
+| 🧪 测试服务 | ![Testing](https://img.shields.io/badge/-测试服务-F39C12?logo=testing&logoColor=white) | 测试服务、在线测试、检测工具 | BrowserStack、LambdaTest、CrossBrowserTesting |
+| 📢 营销推广 | ![Marketing](https://img.shields.io/badge/-营销推广-8E44AD?logo=marketing&logoColor=white) | 营销推广、广告工具、推广服务 | Google Ads、Facebook Ads、Mailchimp |
+| 🏢 企业管理 | ![Business](https://img.shields.io/badge/-企业管理-16A085?logo=business&logoColor=white) | 企业管理、ERP系统、企业服务 | Salesforce、SAP、Oracle |
+
+### 🚀 现代服务类
+
+| 分类 | 图标 | 描述 | 代表网站 |
+|------|------|------|----------|
+| 🔄 低代码平台 | ![LowCode](https://img.shields.io/badge/-低代码平台-2ECC71?logo=lowcode&logoColor=white) | 低代码开发、无代码平台、快速开发工具 | Bubble、Airtable、OutSystems |
+| ☁️ SaaS服务 | ![SaaS](https://img.shields.io/badge/-SaaS服务-E67E22?logo=saas&logoColor=white) | 软件即服务、云应用、订阅服务 | Salesforce、HubSpot、Zendesk |
+| 🐙 开源项目 | ![OpenSource](https://img.shields.io/badge/-开源项目-3498DB?logo=opensource&logoColor=white) | 开源软件、开源项目、开源社区 | GitHub、GitLab、SourceForge |
+| 🏠 远程办公 | ![Remote](https://img.shields.io/badge/-远程办公-E74C3C?logo=remote&logoColor=white) | 远程协作、在线办公、远程工作工具 | Slack、Zoom、Notion |
+| 📈 数字营销 | ![Digital](https://img.shields.io/badge/-数字营销-4285F4?logo=digitalmarketing&logoColor=white) | 数字营销、推广工具、营销自动化 | HubSpot、Mailchimp、Hootsuite |
+| ✍️ 内容创作 | ![Content](https://img.shields.io/badge/-内容创作-DC3545?logo=contentcreation&logoColor=white) | 内容创作、自媒体工具、创作平台 | Canva、Grammarly、Medium |
+| 🔬 数据科学 | ![DataScience](https://img.shields.io/badge/-数据科学-FF6C37?logo=datascience&logoColor=white) | 数据科学、数据分析、数据挖掘工具 | Kaggle、DataCamp、Jupyter |
+| 📡 物联网 | ![IoT](https://img.shields.io/badge/-物联网-4479A1?logo=iot&logoColor=white) | 物联网设备、IoT平台、智能设备 | AWS IoT、Google Cloud IoT、Azure IoT |
+| 🌌 元宇宙 | ![Metaverse](https://img.shields.io/badge/-元宇宙-2496ED?logo=metaverse&logoColor=white) | 虚拟现实、增强现实、元宇宙平台 | Meta Horizon、Decentraland、Roblox |
+| 🌿 绿色科技 | ![GreenTech](https://img.shields.io/badge/-绿色科技-C21325?logo=greentech&logoColor=white) | 环保科技、可持续发展、绿色技术 | Tesla、SolarCity、Bloom Energy |
+
 ## 📋 数据配置说明
 
 ### 🌍 支持的语言 (Language)
