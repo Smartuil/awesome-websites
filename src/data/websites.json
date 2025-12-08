@@ -82,5 +82,19 @@
         },
         "language": "en",
         "added_date": "2025-12-06"
+    },
+    {
+        "name": "Fuun.fun",
+        "url": "https://fuun.fun/",
+        "description": "奇趣网站收藏家，汇集各种创意和实用的在线工具",
+        "category": "工具导航",
+        "tags": ["网站收藏", "创意发现", "在线工具", "灵感收集"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "https://github.com/Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2025-12-08"
     }
 ]
