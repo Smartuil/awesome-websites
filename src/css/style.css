@@ -582,9 +582,7 @@ a:focus {
 
 /* 可选：为键盘导航用户提供更好的焦点指示 */
 a:focus-visible {
-    outline: 2px solid var(--primary-color);
-    outline-offset: 2px;
-    border-radius: 4px;
+    outline: none;
 }
 
 /* Screen reader only content */
@@ -686,8 +684,11 @@ html {
 
 /* Focus styles for accessibility */
 button:focus,
-input:focus,
-a:focus {
+input:focus {
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;
+}
+
+a:focus {
+    outline: none;
 }
