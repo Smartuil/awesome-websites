@@ -711,6 +711,21 @@ class AwesomeWebsites {
             this.handleSearch(e.target.value);
         });
         
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            // "/" to focus search box (when not already in input)
+            if (e.key === '/' && document.activeElement !== searchInput) {
+                e.preventDefault();
+                searchInput.focus();
+            }
+            // "Esc" to clear search and blur
+            if (e.key === 'Escape' && document.activeElement === searchInput) {
+                searchInput.value = '';
+                this.handleSearch('');
+                searchInput.blur();
+            }
+        });
+        
         // Back to top button
         this.setupBackToTop();
         
