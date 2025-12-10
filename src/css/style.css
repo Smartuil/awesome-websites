@@ -312,6 +312,19 @@ body {
     margin-top: 4px;
 }
 
+/* Search Highlight */
+.search-highlight {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.3), rgba(236, 72, 153, 0.3));
+    color: inherit;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-weight: inherit;
+}
+
+[data-theme="dark"] .search-highlight {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.5), rgba(236, 72, 153, 0.5));
+}
+
 .website-description {
     color: var(--text-secondary);
     margin-bottom: 16px;

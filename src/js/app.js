@@ -4,6 +4,7 @@ class AwesomeWebsites {
         this.websites = [];
         this.filteredWebsites = [];
         this.categories = [];
+        this.searchTerm = '';
         this.init();
     }
 
@@ -640,7 +641,11 @@ class AwesomeWebsites {
     }
 
     createWebsiteCard(website) {
-        const tags = website.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+        // Apply highlight to tags
+        const tags = website.tags.map(tag => {
+            const highlightedTag = this.highlightText(tag, this.searchTerm);
+            return `<span class="tag">${highlightedTag}</span>`;
+        }).join('');
         const submitterName = website.submitter.name;
         const submitterGithub = website.submitter.github;
         
@@ -649,6 +654,10 @@ class AwesomeWebsites {
         
         // Get logo URL - use custom logo if provided, otherwise fetch favicon
         const logoUrl = website.logo || `https://www.google.com/s2/favicons?domain=${new URL(website.url).hostname}&sz=128`;
+        
+        // Apply highlight to name and description
+        const highlightedName = this.highlightText(website.name, this.searchTerm);
+        const highlightedDescription = this.highlightText(website.description, this.searchTerm);
         
         return `
             <article class="website-card" data-category="${website.category}" role="listitem" aria-label="${website.name} - ${website.description}">
@@ -662,14 +671,14 @@ class AwesomeWebsites {
                              onerror="this.src='https://www.google.com/s2/favicons?domain=${new URL(website.url).hostname}&sz=128'; this.onerror=function(){this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiM2MzY2ZjEiLz4KPHBhdGggZD0iTTEyIDI0TDI0IDM2TDM2IDEyVjM2SDI0VjEyTDEyIDI0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+'};">
                         <div class="website-text">
                             <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="website-title" aria-label="访问 ${website.name} 网站">
-                                ${website.name}
+                                ${highlightedName}
                                 <span class="language-badge ${languageInfo.class}" aria-label="语言: ${languageInfo.text}">${languageInfo.text}</span>
                             </a>
                             <div class="website-url" aria-label="网站地址: ${website.url}">${website.url}</div>
                         </div>
                     </div>
                 </div>
-                <p class="website-description">${website.description}</p>
+                <p class="website-description">${highlightedDescription}</p>
                 <div class="website-tags" role="list" aria-label="标签">${tags}</div>
                 <div class="website-footer">
                     <div class="submitter-info">
@@ -733,22 +742,29 @@ class AwesomeWebsites {
     }
 
     handleSearch(query) {
-        const searchTerm = query.toLowerCase().trim();
+        this.searchTerm = query.trim();
+        const searchTermLower = this.searchTerm.toLowerCase();
         
-        if (searchTerm === '') {
+        if (searchTermLower === '') {
             this.filteredWebsites = [...this.websites];
         } else {
             this.filteredWebsites = this.websites.filter(website => {
-                const nameMatch = website.name.toLowerCase().includes(searchTerm);
-                const descriptionMatch = website.description.toLowerCase().includes(searchTerm);
-                const tagsMatch = website.tags.some(tag => tag.toLowerCase().includes(searchTerm));
-                const categoryMatch = website.category.toLowerCase().includes(searchTerm);
+                const nameMatch = website.name.toLowerCase().includes(searchTermLower);
+                const descriptionMatch = website.description.toLowerCase().includes(searchTermLower);
+                const tagsMatch = website.tags.some(tag => tag.toLowerCase().includes(searchTermLower));
+                const categoryMatch = website.category.toLowerCase().includes(searchTermLower);
                 
                 return nameMatch || descriptionMatch || tagsMatch || categoryMatch;
             });
         }
         
         this.renderWebsites();
+    }
+    
+    highlightText(text, searchTerm) {
+        if (!searchTerm) return text;
+        const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+        return text.replace(regex, '<mark class="search-highlight">$1</mark>');
     }
 
     filterByCategory(category) {
