@@ -5,7 +5,239 @@ class AwesomeWebsites {
         this.filteredWebsites = [];
         this.categories = [];
         this.searchTerm = '';
+        this.isEnglish = window.location.pathname.includes('/en/');
         this.init();
+    }
+    
+    // Category translation map (Chinese to English)
+    getCategoryTranslation(categoryName) {
+        const translations = {
+            // 🎨 Design & Creative
+            '设计创意': 'Design & Creative',
+            'UI设计': 'UI Design',
+            '平面设计': 'Graphic Design',
+            '3D设计': '3D Design',
+            '动画制作': 'Animation',
+            '图标设计': 'Icon Design',
+            '字体设计': 'Font Design',
+            '配色工具': 'Color Tools',
+            '原型设计': 'Prototyping',
+            '灵感素材': 'Inspiration',
+            
+            // 🛠️ Development Tools
+            '开发工具': 'Dev Tools',
+            '代码编辑': 'Code Editor',
+            '代码托管': 'Code Hosting',
+            'API工具': 'API Tools',
+            '数据库': 'Database',
+            '部署运维': 'DevOps',
+            '测试工具': 'Testing',
+            '包管理': 'Package Manager',
+            '代码质量': 'Code Quality',
+            '终端工具': 'Terminal',
+            
+            // 📚 Learning Resources
+            '学习资源': 'Learning',
+            '编程教程': 'Tutorials',
+            '在线课程': 'Online Courses',
+            '技术文档': 'Documentation',
+            '编程练习': 'Coding Practice',
+            '学习平台': 'Learning Platform',
+            '技术博客': 'Tech Blog',
+            '书籍资源': 'Books',
+            '视频教程': 'Video Tutorials',
+            '问答社区': 'Q&A Community',
+            
+            // 🎮 Entertainment
+            '娱乐休闲': 'Entertainment',
+            '在线游戏': 'Online Games',
+            '音乐平台': 'Music',
+            '视频平台': 'Video',
+            '直播平台': 'Live Streaming',
+            '播客电台': 'Podcast',
+            '漫画阅读': 'Comics',
+            '小说阅读': 'Novels',
+            '图片社区': 'Photo Community',
+            '小游戏': 'Mini Games',
+            
+            // 🔧 Utility Tools
+            '实用工具': 'Utilities',
+            '文件转换': 'File Converter',
+            '文本工具': 'Text Tools',
+            '计算工具': 'Calculator',
+            '压缩工具': 'Compression',
+            '二维码': 'QR Code',
+            '密码管理': 'Password',
+            '网络工具': 'Network Tools',
+            '时间工具': 'Time Tools',
+            '单位转换': 'Unit Converter',
+            '天气查询': 'Weather',
+            '地图导航': 'Maps',
+            '翻译工具': 'Translation',
+            'PDF工具': 'PDF Tools',
+            '截图工具': 'Screenshot',
+            
+            // 📊 Data Analysis
+            '数据分析': 'Data Analysis',
+            '图表制作': 'Charts',
+            '数据挖掘': 'Data Mining',
+            '统计分析': 'Statistics',
+            'BI工具': 'BI Tools',
+            '大数据': 'Big Data',
+            '数据可视化': 'Data Visualization',
+            'Excel工具': 'Excel Tools',
+            
+            // 🌐 Web3/Blockchain
+            'Web3/区块链': 'Web3/Blockchain',
+            '加密货币': 'Cryptocurrency',
+            'NFT市场': 'NFT Market',
+            'DeFi工具': 'DeFi Tools',
+            '钱包工具': 'Wallet',
+            '区块链浏览器': 'Blockchain Explorer',
+            '交易工具': 'Trading',
+            '挖矿工具': 'Mining',
+            
+            // 🤖 Artificial Intelligence
+            '人工智能': 'AI',
+            '机器学习': 'Machine Learning',
+            'AI绘画': 'AI Art',
+            'AI写作': 'AI Writing',
+            '语音识别': 'Speech Recognition',
+            '图像识别': 'Image Recognition',
+            'AI助手': 'AI Assistant',
+            '大模型': 'Large Models',
+            'AI编程': 'AI Coding',
+            
+            // 📱 Social Media
+            '社交媒体': 'Social Media',
+            '即时通讯': 'Messaging',
+            '社区论坛': 'Forums',
+            '博客平台': 'Blogging',
+            '短视频': 'Short Video',
+            '知识社区': 'Knowledge Community',
+            '兴趣社区': 'Interest Community',
+            '职业社交': 'Professional Network',
+            
+            // 🛒 E-commerce
+            '电商平台': 'E-commerce',
+            '二手交易': 'Second-hand',
+            '比价工具': 'Price Comparison',
+            '团购平台': 'Group Buying',
+            '海淘代购': 'Cross-border Shopping',
+            '优惠券': 'Coupons',
+            '拍卖平台': 'Auction',
+            
+            // 📰 News & Information
+            '新闻资讯': 'News',
+            '科技新闻': 'Tech News',
+            '财经资讯': 'Finance News',
+            '娱乐八卦': 'Entertainment News',
+            '体育新闻': 'Sports News',
+            '资讯聚合': 'News Aggregator',
+            '深度报道': 'In-depth Reports',
+            '行业资讯': 'Industry News',
+            
+            // 🖼️ Media Processing
+            '图片处理': 'Image Processing',
+            '视频处理': 'Video Processing',
+            '音频处理': 'Audio Processing',
+            'GIF制作': 'GIF Maker',
+            '图片压缩': 'Image Compression',
+            '滤镜特效': 'Filters & Effects',
+            '格式转换': 'Format Converter',
+            
+            // 📄 Office & Collaboration
+            '在线办公': 'Online Office',
+            '协作工具': 'Collaboration',
+            '文档编辑': 'Document Editor',
+            '表格工具': 'Spreadsheet',
+            '演示文稿': 'Presentation',
+            '笔记工具': 'Note Taking',
+            '白板协作': 'Whiteboard',
+            '会议工具': 'Meeting Tools',
+            '日历管理': 'Calendar',
+            '邮件工具': 'Email Tools',
+            
+            // ☁️ Cloud Services
+            '云存储': 'Cloud Storage',
+            '云服务': 'Cloud Services',
+            'CDN服务': 'CDN',
+            '域名服务': 'Domain Services',
+            '网站建设': 'Website Building',
+            '服务器': 'Servers',
+            '云数据库': 'Cloud Database',
+            '云函数': 'Cloud Functions',
+            
+            // 🎓 Education & Training
+            '在线教育': 'Online Education',
+            '语言学习': 'Language Learning',
+            '技能培训': 'Skills Training',
+            '考试培训': 'Exam Prep',
+            '儿童教育': 'Kids Education',
+            '艺术培训': 'Arts Training',
+            
+            // 🏥 Health & Medical
+            '健康管理': 'Health Management',
+            '运动健身': 'Fitness',
+            '医疗查询': 'Medical Query',
+            '心理测试': 'Psychology Test',
+            
+            // 🚗 Travel & Transportation
+            '旅游攻略': 'Travel Guide',
+            '酒店预订': 'Hotel Booking',
+            '交通出行': 'Transportation',
+            '地图服务': 'Map Services',
+            '美食推荐': 'Food Recommendation',
+            
+            // 💰 Finance
+            '金融理财': 'Finance',
+            '银行服务': 'Banking',
+            '保险服务': 'Insurance',
+            '信用卡': 'Credit Card',
+            '股票基金': 'Stocks & Funds',
+            
+            // 🎨 Creative Life
+            '生活美学': 'Life Aesthetics',
+            '手工艺': 'Handicraft',
+            '美食菜谱': 'Recipes',
+            '家居装饰': 'Home Decoration',
+            '宠物相关': 'Pets',
+            
+            // 🔒 Security & Privacy
+            '安全工具': 'Security Tools',
+            'VPN服务': 'VPN',
+            '密码安全': 'Password Security',
+            '杀毒软件': 'Antivirus',
+            
+            // 🌱 Environmental & Charity
+            '环保公益': 'Environmental',
+            '慈善捐助': 'Charity',
+            '二手回收': 'Recycling',
+            
+            // 🎯 Others
+            '工具导航': 'Navigation',
+            '软件下载': 'Software Download',
+            '浏览器': 'Browser',
+            '操作系统': 'Operating System',
+            '硬件设备': 'Hardware',
+            '测试服务': 'Testing Service',
+            '营销推广': 'Marketing',
+            '企业管理': 'Business Management',
+            
+            // 🚀 Modern Services
+            '低代码平台': 'Low-code Platform',
+            'SaaS服务': 'SaaS',
+            '开源项目': 'Open Source',
+            '远程办公': 'Remote Work',
+            '数字营销': 'Digital Marketing',
+            '内容创作': 'Content Creation',
+            '数据科学': 'Data Science',
+            '物联网': 'IoT',
+            '元宇宙': 'Metaverse',
+            '绿色科技': 'Green Tech'
+        };
+        
+        return this.isEnglish ? (translations[categoryName] || categoryName) : categoryName;
     }
 
     async init() {
@@ -16,7 +248,7 @@ class AwesomeWebsites {
             this.setupEventListeners();
         } catch (error) {
             console.error('Error initializing app:', error);
-            this.showError('加载数据失败，请刷新页面重试');
+            this.showError(i18n.t('loadError'));
         }
     }
 
@@ -31,8 +263,11 @@ class AwesomeWebsites {
 
     async loadData() {
         try {
+            // Determine base path based on current URL
+            const basePath = window.location.pathname.includes('/en/') ? '../' : './';
+            
             // Load websites data
-            const websitesResponse = await fetch('./data/websites.json');
+            const websitesResponse = await fetch(basePath + 'data/websites.json');
             if (!websitesResponse.ok) {
                 throw new Error('Failed to load websites data');
             }
@@ -74,7 +309,7 @@ class AwesomeWebsites {
     }
 
     formatDate(dateString) {
-        if (!dateString) return '未知时间';
+        if (!dateString) return this.isEnglish ? 'Unknown' : '未知时间';
         
         try {
             const date = new Date(dateString);
@@ -584,12 +819,20 @@ class AwesomeWebsites {
             categoryCounts[category.name] = this.websites.filter(website => website.category === category.name).length;
         });
 
+        // Get translated labels
+        const allLabel = this.isEnglish ? 'All' : '全部';
+        const showAllLabel = this.isEnglish ? `Show all ${this.websites.length} websites` : `显示全部 ${this.websites.length} 个网站`;
+
         // Create HTML for filter buttons
         const buttonsHTML = `
-            <button class="filter-btn active" data-category="all" aria-pressed="true" aria-label="显示全部 ${this.websites.length} 个网站">全部 (${this.websites.length})</button>
-            ${this.categories.map(category => 
-                `<button class="filter-btn" data-category="${category.name}" aria-pressed="false" aria-label="显示 ${category.name} 分类的 ${categoryCounts[category.name] || 0} 个网站">${category.icon} ${category.name} (${categoryCounts[category.name] || 0})</button>`
-            ).join('')}
+            <button class="filter-btn active" data-category="all" aria-pressed="true" aria-label="${showAllLabel}">${allLabel} (${this.websites.length})</button>
+            ${this.categories.map(category => {
+                const translatedName = this.getCategoryTranslation(category.name);
+                const ariaLabel = this.isEnglish 
+                    ? `Show ${categoryCounts[category.name] || 0} websites in ${translatedName}` 
+                    : `显示 ${category.name} 分类的 ${categoryCounts[category.name] || 0} 个网站`;
+                return `<button class="filter-btn" data-category="${category.name}" aria-pressed="false" aria-label="${ariaLabel}">${category.icon} ${translatedName} (${categoryCounts[category.name] || 0})</button>`;
+            }).join('')}
         `;
 
         filterButtonsContainer.innerHTML = buttonsHTML;
@@ -659,9 +902,22 @@ class AwesomeWebsites {
         const highlightedName = this.highlightText(website.name, this.searchTerm);
         const highlightedDescription = this.highlightText(website.description, this.searchTerm);
         
+        // Get translated category name
+        const translatedCategory = this.getCategoryTranslation(website.category);
+        
+        // Translated labels
+        const categoryLabel = this.isEnglish ? 'Category' : '分类';
+        const visitLabel = this.isEnglish ? 'Visit' : '访问';
+        const languageLabel = this.isEnglish ? 'Language' : '语言';
+        const tagsLabel = this.isEnglish ? 'Tags' : '标签';
+        const byLabel = this.isEnglish ? 'By' : '由';
+        const onLabel = this.isEnglish ? 'on' : '推荐于';
+        const visitAriaLabel = this.isEnglish ? `Visit ${website.name}` : `访问 ${website.name} 网站`;
+        const githubAriaLabel = this.isEnglish ? `View ${submitterName}'s GitHub` : `查看 ${submitterName} 的 GitHub`;
+        
         return `
             <article class="website-card" data-category="${website.category}" role="listitem" aria-label="${website.name} - ${website.description}">
-                <div class="category-badge" aria-label="分类: ${website.category}">${website.category}</div>
+                <div class="category-badge" aria-label="${categoryLabel}: ${translatedCategory}">${translatedCategory}</div>
                 <div class="website-header">
                     <div class="website-info">
                         <img src="${logoUrl}" 
@@ -670,27 +926,27 @@ class AwesomeWebsites {
                              loading="eager"
                              onerror="this.src='https://www.google.com/s2/favicons?domain=${new URL(website.url).hostname}&sz=128'; this.onerror=function(){this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiM2MzY2ZjEiLz4KPHBhdGggZD0iTTEyIDI0TDI0IDM2TDM2IDEyVjM2SDI0VjEyTDEyIDI0WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+'};">
                         <div class="website-text">
-                            <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="website-title" aria-label="访问 ${website.name} 网站">
+                            <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="website-title" aria-label="${visitAriaLabel}">
                                 ${highlightedName}
-                                <span class="language-badge ${languageInfo.class}" aria-label="语言: ${languageInfo.text}">${languageInfo.text}</span>
+                                <span class="language-badge ${languageInfo.class}" aria-label="${languageLabel}: ${languageInfo.text}">${languageInfo.text}</span>
                             </a>
-                            <div class="website-url" aria-label="网站地址: ${website.url}">${website.url}</div>
+                            <div class="website-url" aria-label="URL: ${website.url}">${website.url}</div>
                         </div>
                     </div>
                 </div>
                 <p class="website-description">${highlightedDescription}</p>
-                <div class="website-tags" role="list" aria-label="标签">${tags}</div>
+                <div class="website-tags" role="list" aria-label="${tagsLabel}">${tags}</div>
                 <div class="website-footer">
                     <div class="submitter-info">
-                        <span>由</span>
-                        <a href="https://github.com/${submitterGithub}" target="_blank" rel="noopener noreferrer" class="submitter-link" aria-label="查看 ${submitterName} 的 GitHub">
+                        <span>${byLabel}</span>
+                        <a href="https://github.com/${submitterGithub}" target="_blank" rel="noopener noreferrer" class="submitter-link" aria-label="${githubAriaLabel}">
                             ${submitterName}
                         </a>
-                        <span>推荐于</span>
+                        <span>${onLabel}</span>
                         <time class="added-date" datetime="${website.added_date}">${this.formatDate(website.added_date)}</time>
                     </div>
-                    <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="visit-btn" aria-label="访问 ${website.name} 网站">
-                        访问
+                    <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="visit-btn" aria-label="${visitAriaLabel}">
+                        ${visitLabel}
                         <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                     </a>
                 </div>

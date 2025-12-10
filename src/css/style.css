@@ -708,6 +708,47 @@ a:focus {
     transform: rotate(-90deg);
 }
 
+/* Language Toggle Button */
+.language-toggle {
+    position: fixed;
+    top: 20px;
+    right: 80px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.language-toggle:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    background: var(--primary-color);
+}
+
+.language-toggle:hover .lang-text {
+    color: white;
+}
+
+.language-toggle:focus {
+    outline: none;
+}
+
+.language-toggle .lang-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: color 0.3s ease;
+}
+
 /* 可选：为键盘导航用户提供更好的焦点指示 */
 a:focus-visible {
     outline: none;
@@ -875,4 +916,45 @@ a:focus {
 [data-theme="dark"] .theme-toggle .icon-moon {
     opacity: 0;
     transform: rotate(-90deg);
+}
+
+/* Language Toggle Button */
+.language-toggle {
+    position: fixed;
+    top: 20px;
+    right: 80px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.language-toggle:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    background: var(--primary-color);
+}
+
+.language-toggle:hover .lang-text {
+    color: white;
+}
+
+.language-toggle:focus {
+    outline: none;
+}
+
+.language-toggle .lang-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: color 0.3s ease;
 }
