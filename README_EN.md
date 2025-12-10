@@ -950,6 +950,14 @@ awesome-websites/
 - **Bidirectional Category Config**: Use Chinese or English category names in data, system auto-adapts
 - **Language Toggle**: Convenient language switch button in top-right corner
 
+### ✨ New Badge Feature
+- **Smart Detection**: System automatically identifies websites added within the last 3 days
+- **Eye-catching Badge**: NEW badge with ✨ icon displayed on the top-right corner of new website cards
+- **Animated Effect**: NEW badge features a pulsing glow animation to attract user attention
+- **Priority Sorting**: New websites are automatically sorted to the top of the list, newest first
+- **Auto Expiration**: NEW badge automatically disappears after 3 days, no manual maintenance required
+- **Pre-release Support**: By setting a future `added_date`, you can pre-add website data that will automatically appear when the date arrives
+
 ## 🤝 How to Contribute
 
 We welcome all forms of contributions! Whether submitting new websites, improving code, or enhancing documentation.
@@ -1133,6 +1141,11 @@ This project is licensed under the [MIT License](LICENSE).
 - 🔍 **Search Enhancement**
   - Real-time search with multi-dimensional matching
   - Search result keyword highlighting
+- ✨ **New Badge Feature**
+  - Websites added within 3 days automatically display a NEW badge
+  - NEW badge includes animated glow effect for eye-catching appearance
+  - New websites are automatically sorted to the top of the list
+  - Display timing controlled via `added_date` field
 
 ---
 

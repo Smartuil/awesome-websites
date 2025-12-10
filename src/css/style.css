@@ -420,16 +420,61 @@ body {
     color: white;
 }
 
-.category-badge {
+/* Card Badges Container */
+.card-badges {
     position: absolute;
     top: 0;
     right: 0;
+    display: flex;
+    align-items: stretch;
+    gap: 6px;
+}
+
+.category-badge {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
     padding: 4px 12px;
     font-size: 0.75rem;
     font-weight: 600;
     border-bottom-left-radius: var(--radius);
+}
+
+/* NEW Badge for recently added websites */
+.new-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: linear-gradient(135deg, #10b981, #34d399);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 0 0 var(--radius) var(--radius);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    animation: pulse-glow 2s ease-in-out infinite;
+    box-shadow: 0 3px 10px rgba(16, 185, 129, 0.4);
+}
+
+.new-badge::before {
+    content: '✨';
+    font-size: 0.7rem;
+}
+
+@keyframes pulse-glow {
+    0%, 100% {
+        box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+        transform: scale(1);
+    }
+    50% {
+        box-shadow: 0 4px 16px rgba(16, 185, 129, 0.6);
+        transform: scale(1.02);
+    }
+}
+
+[data-theme="dark"] .new-badge {
+    background: linear-gradient(135deg, #059669, #10b981);
+    box-shadow: 0 2px 12px rgba(16, 185, 129, 0.5);
 }
 
 .website-footer {

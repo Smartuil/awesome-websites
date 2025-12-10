@@ -274,6 +274,59 @@ class AwesomeWebsites {
         return array;
     }
 
+    // Check if website should be visible (added_date not in future)
+    isWebsiteVisible(addedDate) {
+        if (!addedDate) return true; // No date means visible
+        // Parse date as local time by splitting the string
+        const parts = addedDate.split('-');
+        const added = new Date(parts[0], parts[1] - 1, parts[2]);
+        const now = new Date();
+        // Compare only the date part (ignore time)
+        const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        return added <= todayStart;
+    }
+
+    // Check if website was added within the last 3 days
+    isNewWebsite(addedDate) {
+        if (!addedDate) return false;
+        // Parse date as local time by splitting the string
+        const parts = addedDate.split('-');
+        const added = new Date(parts[0], parts[1] - 1, parts[2]);
+        const now = new Date();
+        const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        // If added_date is in the future, don't show as new
+        if (added > todayStart) return false;
+        const diffTime = todayStart - added;
+        const diffDays = diffTime / (1000 * 60 * 60 * 24);
+        return diffDays <= 3;
+    }
+
+    // Sort websites: new ones first, then shuffle the rest
+    sortWebsitesWithNewFirst(websites) {
+        // First filter out future websites
+        const visibleWebsites = websites.filter(website => this.isWebsiteVisible(website.added_date));
+        
+        const newWebsites = [];
+        const oldWebsites = [];
+        
+        visibleWebsites.forEach(website => {
+            if (this.isNewWebsite(website.added_date)) {
+                newWebsites.push(website);
+            } else {
+                oldWebsites.push(website);
+            }
+        });
+        
+        // Sort new websites by date (newest first)
+        newWebsites.sort((a, b) => new Date(b.added_date) - new Date(a.added_date));
+        
+        // Shuffle old websites
+        this.shuffleArray(oldWebsites);
+        
+        // Combine: new first, then shuffled old
+        return [...newWebsites, ...oldWebsites];
+    }
+
     // Normalize category to Chinese (used as internal key)
     normalizeCategoryKey(categoryName) {
         // English to Chinese mapping for normalization
@@ -479,8 +532,8 @@ class AwesomeWebsites {
                 website.categoryKey = this.normalizeCategoryKey(website.category);
             });
             
-            // Randomize the order of websites
-            this.shuffleArray(this.websites);
+            // Sort websites: new ones first, then shuffle the rest
+            this.websites = this.sortWebsitesWithNewFirst(this.websites);
             
             this.filteredWebsites = [...this.websites];
 
@@ -1112,6 +1165,10 @@ class AwesomeWebsites {
         // Get translated category name
         const translatedCategory = this.getCategoryTranslation(website.categoryKey);
         
+        // Check if website is new (added within last 3 days)
+        const isNew = this.isNewWebsite(website.added_date);
+        const newBadgeHtml = isNew ? `<span class="new-badge" aria-label="${this.isEnglish ? 'New' : '新增'}">NEW</span>` : '';
+        
         // Translated labels
         const categoryLabel = this.isEnglish ? 'Category' : '分类';
         const visitLabel = this.isEnglish ? 'Visit' : '访问';
@@ -1124,7 +1181,10 @@ class AwesomeWebsites {
         
         return `
             <article class="website-card" data-category="${website.categoryKey}" role="listitem" aria-label="${website.name} - ${website.description}">
-                <div class="category-badge" aria-label="${categoryLabel}: ${translatedCategory}">${translatedCategory}</div>
+                <div class="card-badges">
+                    ${newBadgeHtml}
+                    <div class="category-badge" aria-label="${categoryLabel}: ${translatedCategory}">${translatedCategory}</div>
+                </div>
                 <div class="website-header">
                     <div class="website-info">
                         <img src="${logoUrl}" 
