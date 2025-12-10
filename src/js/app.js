@@ -9,9 +9,10 @@ class AwesomeWebsites {
         this.init();
     }
     
-    // Category translation map (Chinese to English)
+    // Category translation map (bidirectional: Chinese <-> English)
     getCategoryTranslation(categoryName) {
-        const translations = {
+        // Chinese to English mapping
+        const zhToEn = {
             // 🎨 Design & Creative
             '设计创意': 'Design & Creative',
             'UI设计': 'UI Design',
@@ -237,7 +238,19 @@ class AwesomeWebsites {
             '绿色科技': 'Green Tech'
         };
         
-        return this.isEnglish ? (translations[categoryName] || categoryName) : categoryName;
+        // Build reverse mapping (English to Chinese)
+        const enToZh = {};
+        for (const [zh, en] of Object.entries(zhToEn)) {
+            enToZh[en] = zh;
+        }
+        
+        if (this.isEnglish) {
+            // English page: return English (translate from Chinese if needed)
+            return zhToEn[categoryName] || categoryName;
+        } else {
+            // Chinese page: return Chinese (translate from English if needed)
+            return enToZh[categoryName] || categoryName;
+        }
     }
 
     async init() {
@@ -261,6 +274,194 @@ class AwesomeWebsites {
         return array;
     }
 
+    // Normalize category to Chinese (used as internal key)
+    normalizeCategoryKey(categoryName) {
+        // English to Chinese mapping for normalization
+        const enToZh = {
+            'Design & Creative': '设计创意',
+            'UI Design': 'UI设计',
+            'Graphic Design': '平面设计',
+            '3D Design': '3D设计',
+            'Animation': '动画制作',
+            'Icon Design': '图标设计',
+            'Font Design': '字体设计',
+            'Color Tools': '配色工具',
+            'Prototyping': '原型设计',
+            'Inspiration': '灵感素材',
+            'Dev Tools': '开发工具',
+            'Code Editor': '代码编辑',
+            'Code Hosting': '代码托管',
+            'API Tools': 'API工具',
+            'Database': '数据库',
+            'DevOps': '部署运维',
+            'Testing': '测试工具',
+            'Package Manager': '包管理',
+            'Code Quality': '代码质量',
+            'Terminal': '终端工具',
+            'Learning': '学习资源',
+            'Tutorials': '编程教程',
+            'Online Courses': '在线课程',
+            'Documentation': '技术文档',
+            'Coding Practice': '编程练习',
+            'Learning Platform': '学习平台',
+            'Tech Blog': '技术博客',
+            'Books': '书籍资源',
+            'Video Tutorials': '视频教程',
+            'Q&A Community': '问答社区',
+            'Entertainment': '娱乐休闲',
+            'Online Games': '在线游戏',
+            'Music': '音乐平台',
+            'Video': '视频平台',
+            'Live Streaming': '直播平台',
+            'Podcast': '播客电台',
+            'Comics': '漫画阅读',
+            'Novels': '小说阅读',
+            'Photo Community': '图片社区',
+            'Mini Games': '小游戏',
+            'Utilities': '实用工具',
+            'File Converter': '文件转换',
+            'Text Tools': '文本工具',
+            'Calculator': '计算工具',
+            'Compression': '压缩工具',
+            'QR Code': '二维码',
+            'Password': '密码管理',
+            'Network Tools': '网络工具',
+            'Time Tools': '时间工具',
+            'Unit Converter': '单位转换',
+            'Weather': '天气查询',
+            'Maps': '地图导航',
+            'Translation': '翻译工具',
+            'PDF Tools': 'PDF工具',
+            'Screenshot': '截图工具',
+            'Data Analysis': '数据分析',
+            'Charts': '图表制作',
+            'Data Mining': '数据挖掘',
+            'Statistics': '统计分析',
+            'BI Tools': 'BI工具',
+            'Big Data': '大数据',
+            'Data Visualization': '数据可视化',
+            'Excel Tools': 'Excel工具',
+            'Web3/Blockchain': 'Web3/区块链',
+            'Cryptocurrency': '加密货币',
+            'NFT Market': 'NFT市场',
+            'DeFi Tools': 'DeFi工具',
+            'Wallet': '钱包工具',
+            'Blockchain Explorer': '区块链浏览器',
+            'Trading': '交易工具',
+            'Mining': '挖矿工具',
+            'AI': '人工智能',
+            'Machine Learning': '机器学习',
+            'AI Art': 'AI绘画',
+            'AI Writing': 'AI写作',
+            'Speech Recognition': '语音识别',
+            'Image Recognition': '图像识别',
+            'AI Assistant': 'AI助手',
+            'Large Models': '大模型',
+            'AI Coding': 'AI编程',
+            'Social Media': '社交媒体',
+            'Messaging': '即时通讯',
+            'Forums': '社区论坛',
+            'Blogging': '博客平台',
+            'Short Video': '短视频',
+            'Knowledge Community': '知识社区',
+            'Interest Community': '兴趣社区',
+            'Professional Network': '职业社交',
+            'E-commerce': '电商平台',
+            'Second-hand': '二手交易',
+            'Price Comparison': '比价工具',
+            'Group Buying': '团购平台',
+            'Cross-border Shopping': '海淘代购',
+            'Coupons': '优惠券',
+            'Auction': '拍卖平台',
+            'News': '新闻资讯',
+            'Tech News': '科技新闻',
+            'Finance News': '财经资讯',
+            'Entertainment News': '娱乐八卦',
+            'Sports News': '体育新闻',
+            'News Aggregator': '资讯聚合',
+            'In-depth Reports': '深度报道',
+            'Industry News': '行业资讯',
+            'Image Processing': '图片处理',
+            'Video Processing': '视频处理',
+            'Audio Processing': '音频处理',
+            'GIF Maker': 'GIF制作',
+            'Image Compression': '图片压缩',
+            'Filters & Effects': '滤镜特效',
+            'Format Converter': '格式转换',
+            'Online Office': '在线办公',
+            'Collaboration': '协作工具',
+            'Document Editor': '文档编辑',
+            'Spreadsheet': '表格工具',
+            'Presentation': '演示文稿',
+            'Note Taking': '笔记工具',
+            'Whiteboard': '白板协作',
+            'Meeting Tools': '会议工具',
+            'Calendar': '日历管理',
+            'Email Tools': '邮件工具',
+            'Cloud Storage': '云存储',
+            'Cloud Services': '云服务',
+            'CDN': 'CDN服务',
+            'Domain Services': '域名服务',
+            'Website Building': '网站建设',
+            'Servers': '服务器',
+            'Cloud Database': '云数据库',
+            'Cloud Functions': '云函数',
+            'Online Education': '在线教育',
+            'Language Learning': '语言学习',
+            'Skills Training': '技能培训',
+            'Exam Prep': '考试培训',
+            'Kids Education': '儿童教育',
+            'Arts Training': '艺术培训',
+            'Health Management': '健康管理',
+            'Fitness': '运动健身',
+            'Medical Query': '医疗查询',
+            'Psychology Test': '心理测试',
+            'Travel Guide': '旅游攻略',
+            'Hotel Booking': '酒店预订',
+            'Transportation': '交通出行',
+            'Map Services': '地图服务',
+            'Food Recommendation': '美食推荐',
+            'Finance': '金融理财',
+            'Banking': '银行服务',
+            'Insurance': '保险服务',
+            'Credit Card': '信用卡',
+            'Stocks & Funds': '股票基金',
+            'Life Aesthetics': '生活美学',
+            'Handicraft': '手工艺',
+            'Recipes': '美食菜谱',
+            'Home Decoration': '家居装饰',
+            'Pets': '宠物相关',
+            'Security Tools': '安全工具',
+            'VPN': 'VPN服务',
+            'Password Security': '密码安全',
+            'Antivirus': '杀毒软件',
+            'Environmental': '环保公益',
+            'Charity': '慈善捐助',
+            'Recycling': '二手回收',
+            'Navigation': '工具导航',
+            'Software Download': '软件下载',
+            'Browser': '浏览器',
+            'Operating System': '操作系统',
+            'Hardware': '硬件设备',
+            'Testing Service': '测试服务',
+            'Marketing': '营销推广',
+            'Business Management': '企业管理',
+            'Low-code Platform': '低代码平台',
+            'SaaS': 'SaaS服务',
+            'Open Source': '开源项目',
+            'Remote Work': '远程办公',
+            'Digital Marketing': '数字营销',
+            'Content Creation': '内容创作',
+            'Data Science': '数据科学',
+            'IoT': '物联网',
+            'Metaverse': '元宇宙',
+            'Green Tech': '绿色科技'
+        };
+        
+        // If it's already Chinese or not in the mapping, return as-is
+        return enToZh[categoryName] || categoryName;
+    }
+
     async loadData() {
         try {
             // Determine base path based on current URL
@@ -272,6 +473,11 @@ class AwesomeWebsites {
                 throw new Error('Failed to load websites data');
             }
             this.websites = await websitesResponse.json();
+            
+            // Normalize category names to Chinese (internal key)
+            this.websites.forEach(website => {
+                website.categoryKey = this.normalizeCategoryKey(website.category);
+            });
             
             // Randomize the order of websites
             this.shuffleArray(this.websites);
@@ -288,16 +494,17 @@ class AwesomeWebsites {
     }
 
     generateCategories() {
-        // Extract unique categories from websites
+        // Extract unique categories from websites (using normalized key)
         const categoryMap = new Map();
         
         this.websites.forEach(website => {
-            if (!categoryMap.has(website.category)) {
+            const categoryKey = website.categoryKey;
+            if (!categoryMap.has(categoryKey)) {
                 // Define category icons and descriptions
-                const categoryInfo = this.getCategoryInfo(website.category);
-                categoryMap.set(website.category, {
-                    id: this.generateCategoryId(website.category),
-                    name: website.category,
+                const categoryInfo = this.getCategoryInfo(categoryKey);
+                categoryMap.set(categoryKey, {
+                    id: this.generateCategoryId(categoryKey),
+                    name: categoryKey,
                     icon: categoryInfo.icon,
                     description: categoryInfo.description
                 });
@@ -813,10 +1020,10 @@ class AwesomeWebsites {
         const filterButtonsContainer = document.querySelector('.filter-buttons');
         if (!filterButtonsContainer) return;
 
-        // Count websites per category
+        // Count websites per category (using categoryKey)
         const categoryCounts = {};
         this.categories.forEach(category => {
-            categoryCounts[category.name] = this.websites.filter(website => website.category === category.name).length;
+            categoryCounts[category.name] = this.websites.filter(website => website.categoryKey === category.name).length;
         });
 
         // Get translated labels
@@ -903,7 +1110,7 @@ class AwesomeWebsites {
         const highlightedDescription = this.highlightText(website.description, this.searchTerm);
         
         // Get translated category name
-        const translatedCategory = this.getCategoryTranslation(website.category);
+        const translatedCategory = this.getCategoryTranslation(website.categoryKey);
         
         // Translated labels
         const categoryLabel = this.isEnglish ? 'Category' : '分类';
@@ -916,7 +1123,7 @@ class AwesomeWebsites {
         const githubAriaLabel = this.isEnglish ? `View ${submitterName}'s GitHub` : `查看 ${submitterName} 的 GitHub`;
         
         return `
-            <article class="website-card" data-category="${website.category}" role="listitem" aria-label="${website.name} - ${website.description}">
+            <article class="website-card" data-category="${website.categoryKey}" role="listitem" aria-label="${website.name} - ${website.description}">
                 <div class="category-badge" aria-label="${categoryLabel}: ${translatedCategory}">${translatedCategory}</div>
                 <div class="website-header">
                     <div class="website-info">
@@ -1028,7 +1235,7 @@ class AwesomeWebsites {
             this.filteredWebsites = [...this.websites];
         } else {
             this.filteredWebsites = this.websites.filter(website => 
-                website.category === category
+                website.categoryKey === category
             );
         }
         this.renderWebsites();
