@@ -12,7 +12,7 @@
 
 **🚀 收集全球有趣、创意、实用网站的开源项目**
 
-[在线演示](https://website.bonan.online/) | [快速开始](#-快速开始) | [贡献指南](#-如何贡献)
+[在线演示](https://website.bonan.online/) | [快速开始](#-快速开始) | [贡献指南](#-如何贡献) | [Engish](./README_EN.md)
 
 </div>
 
@@ -22,7 +22,9 @@
 - 🎨 **精美界面设计**: 现代化响应式设计，支持移动端
 - 🔍 **强大搜索功能**: 按分类、标签、语言快速筛选
 - 📱 **响应式布局**: 完美适配桌面端和移动端
-- 🌐 **多语言支持**: 支持中文、英文等多种语言
+- 🌐 **完善的多语言支持**: 中英文双语界面，约 150+ 分类自动翻译
+- 🔄 **智能分类系统**: 支持中英文分类名称，自动归一化避免重复
+- 🌙 **深色模式**: 支持明暗主题切换，保护眼睛
 - ⚡ **高性能加载**: 纯静态网站，加载速度快
 - 🔄 **持续更新**: 社区驱动，持续收录优质网站
 
@@ -341,6 +343,372 @@
 | `ar` | العربية | 🇸🇦 | 阿拉伯文网站（扩展中） |
 | `pt` | Português | 🇵🇹 | 葡萄牙文网站（扩展中） |
 
+### 🏷️ 分类中英文对照表
+
+在 `category` 字段中，可以使用中文或英文分类名称，系统会自动识别并翻译。以下是完整的分类对照表：
+
+<details>
+<summary><b>🎨 设计创意类 (Design & Creative)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 设计创意 | Design & Creative |
+| UI设计 | UI Design |
+| 平面设计 | Graphic Design |
+| 3D设计 | 3D Design |
+| 动画制作 | Animation |
+| 图标设计 | Icon Design |
+| 字体设计 | Font Design |
+| 配色工具 | Color Tools |
+| 原型设计 | Prototyping |
+| 灵感素材 | Inspiration |
+
+</details>
+
+<details>
+<summary><b>🛠️ 开发工具类 (Development Tools)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 开发工具 | Dev Tools |
+| 代码编辑 | Code Editor |
+| 代码托管 | Code Hosting |
+| API工具 | API Tools |
+| 数据库 | Database |
+| 部署运维 | DevOps |
+| 测试工具 | Testing |
+| 包管理 | Package Manager |
+| 代码质量 | Code Quality |
+| 终端工具 | Terminal |
+
+</details>
+
+<details>
+<summary><b>📚 学习资源类 (Learning Resources)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 学习资源 | Learning |
+| 编程教程 | Tutorials |
+| 在线课程 | Online Courses |
+| 技术文档 | Documentation |
+| 编程练习 | Coding Practice |
+| 学习平台 | Learning Platform |
+| 技术博客 | Tech Blog |
+| 书籍资源 | Books |
+| 视频教程 | Video Tutorials |
+| 问答社区 | Q&A Community |
+
+</details>
+
+<details>
+<summary><b>🎮 娱乐休闲类 (Entertainment)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 娱乐休闲 | Entertainment |
+| 在线游戏 | Online Games |
+| 音乐平台 | Music |
+| 视频平台 | Video |
+| 直播平台 | Live Streaming |
+| 播客电台 | Podcast |
+| 漫画阅读 | Comics |
+| 小说阅读 | Novels |
+| 图片社区 | Photo Community |
+| 小游戏 | Mini Games |
+
+</details>
+
+<details>
+<summary><b>🔧 实用工具类 (Utility Tools)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 实用工具 | Utilities |
+| 文件转换 | File Converter |
+| 文本工具 | Text Tools |
+| 计算工具 | Calculator |
+| 压缩工具 | Compression |
+| 二维码 | QR Code |
+| 密码管理 | Password |
+| 网络工具 | Network Tools |
+| 时间工具 | Time Tools |
+| 单位转换 | Unit Converter |
+| 天气查询 | Weather |
+| 地图导航 | Maps |
+| 翻译工具 | Translation |
+| PDF工具 | PDF Tools |
+| 截图工具 | Screenshot |
+
+</details>
+
+<details>
+<summary><b>📊 数据分析类 (Data Analysis)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 数据分析 | Data Analysis |
+| 图表制作 | Charts |
+| 数据挖掘 | Data Mining |
+| 统计分析 | Statistics |
+| BI工具 | BI Tools |
+| 大数据 | Big Data |
+| 数据可视化 | Data Visualization |
+| Excel工具 | Excel Tools |
+
+</details>
+
+<details>
+<summary><b>🌐 Web3/区块链类 (Web3/Blockchain)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| Web3/区块链 | Web3/Blockchain |
+| 加密货币 | Cryptocurrency |
+| NFT市场 | NFT Market |
+| DeFi工具 | DeFi Tools |
+| 钱包工具 | Wallet |
+| 区块链浏览器 | Blockchain Explorer |
+| 交易工具 | Trading |
+| 挖矿工具 | Mining |
+
+</details>
+
+<details>
+<summary><b>🤖 人工智能类 (Artificial Intelligence)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 人工智能 | AI |
+| 机器学习 | Machine Learning |
+| AI绘画 | AI Art |
+| AI写作 | AI Writing |
+| 语音识别 | Speech Recognition |
+| 图像识别 | Image Recognition |
+| AI助手 | AI Assistant |
+| 大模型 | Large Models |
+| AI编程 | AI Coding |
+
+</details>
+
+<details>
+<summary><b>📱 社交媒体类 (Social Media)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 社交媒体 | Social Media |
+| 即时通讯 | Messaging |
+| 社区论坛 | Forums |
+| 博客平台 | Blogging |
+| 短视频 | Short Video |
+| 知识社区 | Knowledge Community |
+| 兴趣社区 | Interest Community |
+| 职业社交 | Professional Network |
+
+</details>
+
+<details>
+<summary><b>🛒 电商购物类 (E-commerce)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 电商平台 | E-commerce |
+| 二手交易 | Second-hand |
+| 比价工具 | Price Comparison |
+| 团购平台 | Group Buying |
+| 海淘代购 | Cross-border Shopping |
+| 优惠券 | Coupons |
+| 拍卖平台 | Auction |
+
+</details>
+
+<details>
+<summary><b>📰 新闻资讯类 (News & Information)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 新闻资讯 | News |
+| 科技新闻 | Tech News |
+| 财经资讯 | Finance News |
+| 娱乐八卦 | Entertainment News |
+| 体育新闻 | Sports News |
+| 资讯聚合 | News Aggregator |
+| 深度报道 | In-depth Reports |
+| 行业资讯 | Industry News |
+
+</details>
+
+<details>
+<summary><b>🖼️ 媒体处理类 (Media Processing)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 图片处理 | Image Processing |
+| 视频处理 | Video Processing |
+| 音频处理 | Audio Processing |
+| GIF制作 | GIF Maker |
+| 图片压缩 | Image Compression |
+| 滤镜特效 | Filters & Effects |
+| 格式转换 | Format Converter |
+
+</details>
+
+<details>
+<summary><b>📄 办公协作类 (Office & Collaboration)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 在线办公 | Online Office |
+| 协作工具 | Collaboration |
+| 文档编辑 | Document Editor |
+| 表格工具 | Spreadsheet |
+| 演示文稿 | Presentation |
+| 笔记工具 | Note Taking |
+| 白板协作 | Whiteboard |
+| 会议工具 | Meeting Tools |
+| 日历管理 | Calendar |
+| 邮件工具 | Email Tools |
+
+</details>
+
+<details>
+<summary><b>☁️ 云服务类 (Cloud Services)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 云存储 | Cloud Storage |
+| 云服务 | Cloud Services |
+| CDN服务 | CDN |
+| 域名服务 | Domain Services |
+| 网站建设 | Website Building |
+| 服务器 | Servers |
+| 云数据库 | Cloud Database |
+| 云函数 | Cloud Functions |
+
+</details>
+
+<details>
+<summary><b>🎓 教育培训类 (Education & Training)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 在线教育 | Online Education |
+| 语言学习 | Language Learning |
+| 技能培训 | Skills Training |
+| 考试培训 | Exam Prep |
+| 儿童教育 | Kids Education |
+| 艺术培训 | Arts Training |
+
+</details>
+
+<details>
+<summary><b>🏥 健康医疗类 (Health & Medical)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 健康管理 | Health Management |
+| 运动健身 | Fitness |
+| 医疗查询 | Medical Query |
+| 心理测试 | Psychology Test |
+
+</details>
+
+<details>
+<summary><b>🚗 出行旅游类 (Travel & Transportation)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 旅游攻略 | Travel Guide |
+| 酒店预订 | Hotel Booking |
+| 交通出行 | Transportation |
+| 地图服务 | Map Services |
+| 美食推荐 | Food Recommendation |
+
+</details>
+
+<details>
+<summary><b>💰 金融理财类 (Finance)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 金融理财 | Finance |
+| 银行服务 | Banking |
+| 保险服务 | Insurance |
+| 信用卡 | Credit Card |
+| 股票基金 | Stocks & Funds |
+
+</details>
+
+<details>
+<summary><b>🎨 创意生活类 (Creative Life)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 生活美学 | Life Aesthetics |
+| 手工艺 | Handicraft |
+| 美食菜谱 | Recipes |
+| 家居装饰 | Home Decoration |
+| 宠物相关 | Pets |
+
+</details>
+
+<details>
+<summary><b>🔒 安全隐私类 (Security & Privacy)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 安全工具 | Security Tools |
+| VPN服务 | VPN |
+| 密码安全 | Password Security |
+| 杀毒软件 | Antivirus |
+
+</details>
+
+<details>
+<summary><b>🌱 环保公益类 (Environmental & Charity)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 环保公益 | Environmental |
+| 慈善捐助 | Charity |
+| 二手回收 | Recycling |
+
+</details>
+
+<details>
+<summary><b>🎯 其他分类 (Others)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 工具导航 | Navigation |
+| 软件下载 | Software Download |
+| 浏览器 | Browser |
+| 操作系统 | Operating System |
+| 硬件设备 | Hardware |
+| 测试服务 | Testing Service |
+| 营销推广 | Marketing |
+| 企业管理 | Business Management |
+
+</details>
+
+<details>
+<summary><b>🚀 现代服务类 (Modern Services)</b></summary>
+
+| 中文 | English |
+|------|---------|
+| 低代码平台 | Low-code Platform |
+| SaaS服务 | SaaS |
+| 开源项目 | Open Source |
+| 远程办公 | Remote Work |
+| 数字营销 | Digital Marketing |
+| 内容创作 | Content Creation |
+| 数据科学 | Data Science |
+| 物联网 | IoT |
+| 元宇宙 | Metaverse |
+| 绿色科技 | Green Tech |
+
+</details>
+
 ### 📝 数据格式示例
 
 ```json
@@ -348,7 +716,7 @@
   "name": "网站名称",
   "url": "https://example.com",
   "description": "网站描述",
-  "category": "分类名称",  // 从上述分类中选择
+  "category": "分类名称",  // 支持中文或英文，如 "工具导航" 或 "Navigation"
   "tags": ["标签1", "标签2"],
   "logo": "logo URL（可选）",
   "submitter": {
@@ -360,6 +728,8 @@
   "added_date": "2024-12-04"
 }
 ```
+
+> **提示**: `category` 字段支持中英文双向配置。例如，使用 `"category": "Navigation"` 时，中文页面会自动显示为"工具导航"，英文页面显示为"Navigation"。系统会自动归一化分类，避免产生重复的分类按钮。
 
 ## 🚀 快速开始
 
@@ -528,12 +898,14 @@ awesome-websites/
 │   └── 📂 workflows/      # GitHub Actions
 │       └── 📄 Deploy.yml  # 自动部署配置
 ├── 📂 src/               # 源代码目录
-│   ├── 📄 index.html     # 主页面
+│   ├── 📄 index.html     # 中文主页面
 │   ├── 📄 404.html       # 404 错误页面
+│   ├── 📂 en/            # 英文版本目录
+│   │   └── 📄 index.html # 英文主页面
 │   ├── 📂 css/           # 样式文件
 │   │   └── 📄 style.css  # 主样式文件
 │   ├── 📂 js/            # JavaScript 文件
-│   │   ├── 📄 app.js     # 主应用逻辑
+│   │   ├── 📄 app.js     # 主应用逻辑（含多语言支持）
 │   │   └── 📄 filter.js  # 筛选功能
 │   └── 📂 data/          # 数据文件
 │       └── 📄 websites.json  # 网站数据
@@ -551,10 +923,13 @@ awesome-websites/
 ## 🌟 主要功能
 
 ### 🔍 搜索与筛选
-- **关键词搜索**: 支持网站名称、描述搜索
-- **分类筛选**: 按网站类别快速筛选
-- **标签筛选**: 按多个标签组合筛选
-- **语言筛选**: 按网站语言类型筛选
+- **实时搜索**: 输入即搜，支持网站名称、描述、标签、分类多维度匹配
+- **搜索高亮**: 搜索结果中关键词自动高亮显示
+- **分类筛选**: 按网站类别快速筛选，支持键盘左右方向键切换分类
+- **快捷键支持**:
+  - 按 `/` 快速聚焦搜索框
+  - 按 `Esc` 清空搜索并退出
+- **智能分类归一化**: 无论分类名称使用中文或英文，系统自动归一化处理，避免重复分类
 
 ### 📊 数据展示
 - **卡片式布局**: 清晰展示网站信息
@@ -565,10 +940,16 @@ awesome-websites/
 ### 🎨 用户体验
 - **平滑动画**: 优雅的过渡效果
 - **悬停效果**: 增强交互反馈
-- **暗色主题**: 支持明暗主题切换（计划中）
+- **深色模式**: 支持明暗主题一键切换
 - **快捷键支持**: 提升使用效率
 
-## 🤝 如何贡献
+### 🌐 多语言支持
+- **双语界面**: 完整支持中文和英文界面
+- **分类自动翻译**: 约 150+ 分类名称自动中英文翻译
+- **双向分类配置**: 数据中可使用中文或英文分类名称，系统自动适配显示
+- **语言切换**: 便捷的语言切换按钮，位于页面右上角
+
+## 🤝 如何贡献([Engish](./README_EN.md#-how-to-contribute))
 
 我们欢迎所有形式的贡献！无论是提交新的网站、改进代码，还是完善文档。
 
@@ -733,6 +1114,24 @@ git push origin feature/add-new-websites
 - 感谢所有贡献者的无私奉献
 - 感谢 [Font Awesome](https://fontawesome.com/) 提供的图标
 - 感谢所有开源社区的启发和支持
+
+## 📝 更新日志
+
+### v1.1.0 (2025-12-11)
+- ✨ **多语言支持增强**
+  - 新增完整的英文界面支持 (`/en/` 路径)
+  - 添加约 150+ 分类的中英文双向翻译
+  - 支持在数据配置中使用中文或英文分类名称
+  - 修复英文页面数据加载路径问题
+- 🔧 **分类系统优化**
+  - 实现分类名称智能归一化，避免中英文分类重复
+  - 优化分类按钮计数逻辑
+- 🎨 **界面优化**
+  - 语言切换按钮移至页面右上角，与深色模式按钮并排
+  - 深色模式功能完善
+- 🎨 **搜索增强**
+  - 实时搜索匹配
+  - 搜索结果高亮
 
 ---
 
