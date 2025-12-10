@@ -102,6 +102,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
+    <!-- Theme initialization (prevent flash) -->
+    <script>
+        (function() {
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
+    
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
     <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
@@ -208,6 +217,12 @@
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="回到顶部" title="回到页面顶部">
         <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="切换深色模式" title="切换深色/浅色模式">
+        <i class="fas fa-sun icon-sun" aria-hidden="true"></i>
+        <i class="fas fa-moon icon-moon" aria-hidden="true"></i>
     </button>
 
     <!-- JavaScript -->

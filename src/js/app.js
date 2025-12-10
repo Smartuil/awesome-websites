@@ -785,4 +785,26 @@ class AwesomeWebsites {
 // Initialize the app when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     new AwesomeWebsites();
+    
+    // Theme Toggle
+    const themeToggle = document.getElementById('themeToggle');
+    
+    // Apply theme based on system preference (always follow system)
+    const applySystemTheme = () => {
+        const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+    };
+    
+    // Initial theme
+    applySystemTheme();
+    
+    // Toggle theme on button click (temporary override until page refresh)
+    themeToggle.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+    });
+    
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applySystemTheme);
 });
