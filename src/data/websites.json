@@ -96,5 +96,19 @@
         },
         "language": "zh",
         "added_date": "2025-12-08"
+    },
+    {
+        "name": "Be JSON",
+        "url": "https://www.bejson.com/",
+        "description": "在线JSON校验格式化工具",
+        "category": "工具导航",
+        "tags": ["JSON", "在线格式化"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "https://github.com/Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2025-12-13"
     }
 ]
