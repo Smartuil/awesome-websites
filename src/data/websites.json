@@ -124,5 +124,19 @@
         },
         "language": "zh",
         "added_date": "2025-12-13"
+    },
+    {
+        "name": "Metrics",
+        "url": "https://metrics.lecoq.io/",
+        "description": "📊 An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!",
+        "category": "工具导航",
+        "tags": ["Github", "创意工具"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "https://github.com/Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2025-12-18"
     }
 ]
