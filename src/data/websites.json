@@ -110,5 +110,19 @@
         },
         "language": "zh",
         "added_date": "2025-12-13"
+    },
+    {
+        "name": "regex101",
+        "url": "https://regex101.com/",
+        "description": "在线正则表达式工具，Github:https://github.com/firasdib/Regex101",
+        "category": "工具导航",
+        "tags": ["正则表达式", "在线格式化"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "https://github.com/Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2025-12-13"
     }
 ]
