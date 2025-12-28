@@ -138,5 +138,19 @@
         },
         "language": "zh",
         "added_date": "2025-12-18"
+    },
+    {
+        "name": "zdoc",
+        "url": "https://www.zdoc.app/zh",
+        "description": "一个免费的工具，可将 GitHub 的 README 翻译成多种语言，并保持同步。",
+        "category": "工具导航",
+        "tags": ["README", "翻译"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2025-12-28"
     }
 ]
