@@ -14,6 +14,17 @@
 
 [在线演示](https://website.bonan.online/) | [快速开始](#-快速开始) | [贡献指南](#-如何贡献) | [Engish](./README_EN.md)
 
+<!-- Keep these links. Translations will automatically update with the README. -->
+[Deutsch](https://zdoc.app/de/Smartuil/awesome-websites) | 
+[English](https://zdoc.app/en/Smartuil/awesome-websites) | 
+[Español](https://zdoc.app/es/Smartuil/awesome-websites) | 
+[français](https://zdoc.app/fr/Smartuil/awesome-websites) | 
+[日本語](https://zdoc.app/ja/Smartuil/awesome-websites) | 
+[한국어](https://zdoc.app/ko/Smartuil/awesome-websites) | 
+[Português](https://zdoc.app/pt/Smartuil/awesome-websites) | 
+[Русский](https://zdoc.app/ru/Smartuil/awesome-websites) | 
+[中文](https://zdoc.app/zh/Smartuil/awesome-websites)
+
 </div>
 
 ## ✨ 项目特色
