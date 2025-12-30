@@ -166,5 +166,19 @@
         },
         "language": "zh",
         "added_date": "2025-12-30"
+    },
+    {
+        "name": "github-unwrapped",
+        "url": "https://githubunwrapped.com/",
+        "description": "Github年度报告生成器，可以生成个性化的年度报告。",
+        "category": "实用工具",
+        "tags": ["GitHub", "年度报告"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2025-12-30"
     }
 ]
