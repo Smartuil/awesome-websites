@@ -152,5 +152,19 @@
         },
         "language": "zh",
         "added_date": "2025-12-28"
+    },
+    {
+        "name": "wai",
+        "url": "https://wai.shaiwang.life/",
+        "description": "一款可以预防颈椎病的新标签页扩展。",
+        "category": "实用工具",
+        "tags": ["颈椎友好"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2025-12-30"
     }
 ]
