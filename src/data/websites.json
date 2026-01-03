@@ -194,5 +194,19 @@
         },
         "language": "zh",
         "added_date": "2025-12-31"
+    },
+    {
+        "name": "VERT",
+        "url": "https://vert.sh/",
+        "description": "The next-generation file converter. Open source, fully local* and free forever.",
+        "category": "实用工具",
+        "tags": ["格式转化", "在线"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2026-01-03"
     }
 ]
