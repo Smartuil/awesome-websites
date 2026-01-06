@@ -222,5 +222,19 @@
         },
         "language": "zh",
         "added_date": "2026-01-07"
+    },
+    {
+        "name": "老游戏在线玩",
+        "url": "https://zaixianwan.app/",
+        "description": "目前支持红白机、超任、任天堂64、GB/GBC/GBA、NDS、PlayStation、世嘉MD、世嘉土星等三万多款游戏。",
+        "category": "在线游戏",
+        "tags": ["老游戏", "在线游戏"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2026-01-07"
     }
 ]
