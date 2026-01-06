@@ -236,5 +236,19 @@
         },
         "language": "zh",
         "added_date": "2026-01-07"
+    },
+    {
+        "name": "Flash保存计划",
+        "url": "https://flash.zczc.cz/",
+        "description": "在这里尝试重新保存并展示那些曾带给我们欢乐的 Flash 作品。",
+        "category": "娱乐休闲",
+        "tags": ["Flash", "老游戏", "怀旧", "动画"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2026-01-07"
     }
 ]
