@@ -208,5 +208,19 @@
         },
         "language": "zh",
         "added_date": "2026-01-03"
+    },
+    {
+        "name": "在线DOS游戏",
+        "url": "https://dos.lol/",
+        "description": "在浏览器中免费游玩，共 1800+ 经典 DOS 游戏可供游玩",
+        "category": "在线游戏",
+        "tags": ["DOS游戏", "在线游戏"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2026-01-07"
     }
 ]
