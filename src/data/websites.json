@@ -264,5 +264,19 @@
         },
         "language": "en",
         "added_date": "2026-01-07"
+    },
+    {
+        "name": "BentoPDF",
+        "url": "https://www.bentopdf.com/",
+        "description": "BentoPDF is a powerful, privacy-first, client-side PDF toolkit.",
+        "category": "PDF工具",
+        "tags": ["PDF", "在线PDF工具", "隐私保护"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "en",
+        "added_date": "2026-01-08"
     }
 ]
