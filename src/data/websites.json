@@ -250,5 +250,19 @@
         },
         "language": "zh",
         "added_date": "2026-01-07"
+    },
+    {
+        "name": "WebCheck",
+        "url": "https://web-check.xyz/",
+        "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website.",
+        "category": "网络工具",
+        "tags": ["OSINT", "网站分析", "网络工具", "情报收集"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "en",
+        "added_date": "2026-01-07"
     }
 ]
