@@ -278,5 +278,19 @@
         },
         "language": "en",
         "added_date": "2026-01-08"
+    },
+    {
+        "name": "抠抠图",
+        "url": "https://www.koukoutu.com/",
+        "description": "免费在线AI抠图工具，支持高分辨率下载，无水印，无限次使用",
+        "category": "实用工具",
+        "tags": ["AI抠图", "图片处理", "去背景", "免费工具"],
+        "logo": "",
+        "submitter": {
+            "name": "Smartuil",
+            "github": "Smartuil"
+        },
+        "language": "zh",
+        "added_date": "2026-04-12"
     }
 ]
