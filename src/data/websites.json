@@ -292,5 +292,23 @@
         },
         "language": "zh",
         "added_date": "2026-04-12"
+    },
+    {
+        "name": "FollowerKaufen.ch Follower Growth Calculator",
+        "url": "https://followerkaufen.ch/tools/follower-growth",
+        "description": "Free Swiss-market German follower-growth planner: remaining net increase and daily/weekly averages. No signup or profile lookup. Czech operator; separate paid social services and optional consent analytics. Mathematical plan, not a forecast.",
+        "category": "实用工具",
+        "tags": [
+            "calculator",
+            "follower growth",
+            "social media"
+        ],
+        "logo": "",
+        "submitter": {
+            "name": "Tomáš Přibyl",
+            "github": "codetomex"
+        },
+        "language": "de",
+        "added_date": "2026-10-07"
     }
 ]
