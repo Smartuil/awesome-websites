@@ -292,5 +292,19 @@
         },
         "language": "zh",
         "added_date": "2026-04-12"
+    },
+    {
+        "name": "QuietTake",
+        "url": "https://noiseremover.site/",
+        "description": "Free browser-local RNNoise speech-noise cleanup with original/cleaned playback and WAV export. No signup or audio upload; up to 50 MB and five minutes per file.",
+        "category": "音频处理",
+        "tags": ["noise reduction", "speech cleanup", "browser-local", "free"],
+        "logo": "https://noiseremover.site/logo.png",
+        "submitter": {
+            "name": "QuietTake",
+            "github": "liubrain39"
+        },
+        "language": "en",
+        "added_date": "2026-10-13"
     }
 ]
