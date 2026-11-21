@@ -292,5 +292,23 @@
         },
         "language": "zh",
         "added_date": "2026-04-12"
+    },
+    {
+        "name": "资料星球",
+        "url": "https://resources.packscena.com/",
+        "description": "中文学习资料目录，按主题和关键词查找 AI、编程和创作资料。可先查看条目和部分目录预览，当前经夸克免费领取。",
+        "category": "学习资源",
+        "tags": [
+            "中文",
+            "编程",
+            "学习资料"
+        ],
+        "logo": "",
+        "submitter": {
+            "name": "Jake Tao",
+            "github": "JonathanOwenTJ"
+        },
+        "language": "zh",
+        "added_date": "2026-11-21"
     }
 ]
