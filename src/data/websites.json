@@ -4,7 +4,10 @@
         "url": "https://www.bonan.online/",
         "description": "UnrealEngineLibrary 是一个专注于 Unreal Engine 资源分享与交流的平台",
         "category": "技术博客",
-        "tags": ["UnrealEngine", "游戏开发"],
+        "tags": [
+            "UnrealEngine",
+            "游戏开发"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -18,7 +21,11 @@
         "url": "https://github.com",
         "description": "全球最大的代码托管平台，开发者协作的首选",
         "category": "代码托管",
-        "tags": ["代码托管", "开源", "协作"],
+        "tags": [
+            "代码托管",
+            "开源",
+            "协作"
+        ],
         "logo": "https://github.com/favicon.ico",
         "submitter": {
             "name": "Smartuil",
@@ -32,7 +39,10 @@
         "url": "https://bruno-simon.com/",
         "description": "一款开源的3D博客项目",
         "category": "技术博客",
-        "tags": ["3D", "博客"],
+        "tags": [
+            "3D",
+            "博客"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -46,7 +56,11 @@
         "url": "https://trendshift.io/",
         "description": "A better way to discover open source",
         "category": "学习资源",
-        "tags": ["open source", "GitHub Trending", "Daily explore"],
+        "tags": [
+            "open source",
+            "GitHub Trending",
+            "Daily explore"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -60,7 +74,10 @@
         "url": "https://hellogithub.com/",
         "description": "有趣的开源社区",
         "category": "学习资源",
-        "tags": ["open source", "开源社区"],
+        "tags": [
+            "open source",
+            "开源社区"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -74,7 +91,9 @@
         "url": "https://codecrafters.io/",
         "description": "Master programming by recreating your favorite technologies from scratch.",
         "category": "学习资源",
-        "tags": ["build-your-own-x"],
+        "tags": [
+            "build-your-own-x"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -88,7 +107,12 @@
         "url": "https://fuun.fun/",
         "description": "奇趣网站收藏家，汇集各种创意和实用的在线工具",
         "category": "工具导航",
-        "tags": ["网站收藏", "创意发现", "在线工具", "灵感收集"],
+        "tags": [
+            "网站收藏",
+            "创意发现",
+            "在线工具",
+            "灵感收集"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -102,7 +126,10 @@
         "url": "https://www.bejson.com/",
         "description": "在线JSON校验格式化工具",
         "category": "工具导航",
-        "tags": ["JSON", "在线格式化"],
+        "tags": [
+            "JSON",
+            "在线格式化"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -116,7 +143,10 @@
         "url": "https://regex101.com/",
         "description": "在线正则表达式工具，Github:https://github.com/firasdib/Regex101",
         "category": "工具导航",
-        "tags": ["正则表达式", "在线格式化"],
+        "tags": [
+            "正则表达式",
+            "在线格式化"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -130,7 +160,10 @@
         "url": "https://metrics.lecoq.io/",
         "description": "📊 An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!",
         "category": "工具导航",
-        "tags": ["Github", "创意工具"],
+        "tags": [
+            "Github",
+            "创意工具"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -144,7 +177,10 @@
         "url": "https://www.zdoc.app/zh",
         "description": "一个免费的工具，可将 GitHub 的 README 翻译成多种语言，并保持同步。",
         "category": "工具导航",
-        "tags": ["README", "翻译"],
+        "tags": [
+            "README",
+            "翻译"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -158,7 +194,9 @@
         "url": "https://wai.shaiwang.life/",
         "description": "一款可以预防颈椎病的新标签页扩展。",
         "category": "实用工具",
-        "tags": ["颈椎友好"],
+        "tags": [
+            "颈椎友好"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -172,7 +210,10 @@
         "url": "https://githubunwrapped.com/",
         "description": "Github年度报告生成器，可以生成个性化的年度报告。",
         "category": "实用工具",
-        "tags": ["GitHub", "年度报告"],
+        "tags": [
+            "GitHub",
+            "年度报告"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -186,7 +227,11 @@
         "url": "https://wainews.bonan.online/",
         "description": "一款可以预防颈椎病的网站，同时聚合多平台热点新闻",
         "category": "实用工具",
-        "tags": ["颈椎友好", "新闻聚合", "歪脖子"],
+        "tags": [
+            "颈椎友好",
+            "新闻聚合",
+            "歪脖子"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -200,7 +245,10 @@
         "url": "https://vert.sh/",
         "description": "The next-generation file converter. Open source, fully local* and free forever.",
         "category": "实用工具",
-        "tags": ["格式转化", "在线"],
+        "tags": [
+            "格式转化",
+            "在线"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -214,7 +262,10 @@
         "url": "https://dos.lol/",
         "description": "在浏览器中免费游玩，共 1800+ 经典 DOS 游戏可供游玩",
         "category": "在线游戏",
-        "tags": ["DOS游戏", "在线游戏"],
+        "tags": [
+            "DOS游戏",
+            "在线游戏"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -228,7 +279,10 @@
         "url": "https://zaixianwan.app/",
         "description": "目前支持红白机、超任、任天堂64、GB/GBC/GBA、NDS、PlayStation、世嘉MD、世嘉土星等三万多款游戏。",
         "category": "在线游戏",
-        "tags": ["老游戏", "在线游戏"],
+        "tags": [
+            "老游戏",
+            "在线游戏"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -242,7 +296,12 @@
         "url": "https://flash.zczc.cz/",
         "description": "在这里尝试重新保存并展示那些曾带给我们欢乐的 Flash 作品。",
         "category": "娱乐休闲",
-        "tags": ["Flash", "老游戏", "怀旧", "动画"],
+        "tags": [
+            "Flash",
+            "老游戏",
+            "怀旧",
+            "动画"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -256,7 +315,12 @@
         "url": "https://web-check.xyz/",
         "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website.",
         "category": "网络工具",
-        "tags": ["OSINT", "网站分析", "网络工具", "情报收集"],
+        "tags": [
+            "OSINT",
+            "网站分析",
+            "网络工具",
+            "情报收集"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -270,7 +334,11 @@
         "url": "https://www.bentopdf.com/",
         "description": "BentoPDF is a powerful, privacy-first, client-side PDF toolkit.",
         "category": "PDF工具",
-        "tags": ["PDF", "在线PDF工具", "隐私保护"],
+        "tags": [
+            "PDF",
+            "在线PDF工具",
+            "隐私保护"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -284,7 +352,12 @@
         "url": "https://www.koukoutu.com/",
         "description": "免费在线AI抠图工具，支持高分辨率下载，无水印，无限次使用",
         "category": "实用工具",
-        "tags": ["AI抠图", "图片处理", "去背景", "免费工具"],
+        "tags": [
+            "AI抠图",
+            "图片处理",
+            "去背景",
+            "免费工具"
+        ],
         "logo": "",
         "submitter": {
             "name": "Smartuil",
@@ -292,5 +365,24 @@
         },
         "language": "zh",
         "added_date": "2026-04-12"
+    },
+    {
+        "name": "StagePeek",
+        "url": "https://stagepeek.live/",
+        "description": "Interactive 2D seating maps and 3D concert stage-view simulator covering 201 stadiums and arenas worldwide with 1x-10x camera zoom. Free first-seat preview with no login.",
+        "category": "实用工具",
+        "tags": [
+            "3D",
+            "演唱会选座",
+            "WebGL",
+            "免费工具"
+        ],
+        "logo": "https://stagepeek.live/favicon.ico",
+        "submitter": {
+            "name": "Hinstein",
+            "github": "Hinstein"
+        },
+        "language": "en",
+        "added_date": "2026-11-27"
     }
 ]
