@@ -292,5 +292,19 @@
         },
         "language": "zh",
         "added_date": "2026-04-12"
+    },
+    {
+        "name": "Minecraft Krillion",
+        "url": "https://minecraftkrillion.net/",
+        "description": "免费浏览器问答小游戏。每天回答七道 Minecraft 主题问题，猜中越少人想到的正确答案，就能挖得越接近基岩。免安装即可游玩。",
+        "category": "小游戏",
+        "tags": ["Minecraft", "每日问答", "网页游戏"],
+        "logo": "https://img.minecraftkrillion.net/s_5o1c22581g5q4b/icon-192.bb6bfe129f.png",
+        "submitter": {
+            "name": "DougLee",
+            "github": "DougLee"
+        },
+        "language": "en",
+        "added_date": "2026-11-28"
     }
 ]
