@@ -292,5 +292,41 @@
         },
         "language": "zh",
         "added_date": "2026-04-12"
-    }
+    },
+  {
+    "name": "Genjutsu AI",
+    "url": "https://genjutsuaimaker.com/",
+    "description": "在线照片转视频工具。选择舞蹈、聚会或短剧模板，按角色上传获授权的照片，并在生成前查看时长和积分消耗。",
+    "category": "人工智能",
+    "tags": [
+      "AI 视频",
+      "照片转视频",
+      "视频模板"
+    ],
+    "logo": "https://genjutsuaimaker.com/apple-touch-icon.png",
+    "submitter": {
+      "name": "DougLee",
+      "github": "DougLee"
+    },
+    "language": "en",
+    "added_date": "2026-11-28"
+  },
+  {
+    "name": "RapVideoLab",
+    "url": "https://rapvideolab.com/",
+    "description": "根据主题或歌词生成说唱人声和节拍，可制作 5–15 秒的独唱、双人或对战视频。视频生成消耗付费积分。",
+    "category": "人工智能",
+    "tags": [
+      "AI 视频",
+      "说唱",
+      "音乐生成"
+    ],
+    "logo": "https://rapvideolab.com/logo.png",
+    "submitter": {
+      "name": "DougLee",
+      "github": "DougLee"
+    },
+    "language": "en",
+    "added_date": "2026-11-28"
+  }
 ]
